@@ -1,0 +1,9 @@
+In Terminal:
+
+git submodule update --init --recursive
+
+Find file: .gitmodules
+
+After each  `url = ...` line, add a new line:
+
+branch = main

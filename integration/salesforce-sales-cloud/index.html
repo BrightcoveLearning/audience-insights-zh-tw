@@ -1,0 +1,46 @@
+---
+title: Salesforce Sales Cloud
+description: This integration connects Audience Insights to Salesforce Sales Cloud to update Contacts with insights into their video viewing.
+parent: Integrations
+---
+
+<!-- temporary links till release -->
+<!-- <h1><i class="{{ item.icon }}"></i> {{ page.title }}</h1>
+<summary>{{ page.description }}</summary>
+<h3>Topics</h3>
+<ul>
+  <li><a href="/integrations/salesforce-sales-cloud/overview-sfsc-integration.html">Overview</a></li>
+  <li><a href="/integrations/salesforce-sales-cloud/salesforce-connected-app-setup.html">Salesforce Connected App Setup</a></li>
+  <li><a href="/integrations/salesforce-sales-cloud/audience-insights-publish-integration-setup.html">Audience Insights Salesforce Integration Setup</a></li>
+  <li><a href="/integrations/salesforce-sales-cloud/salesforce-properties-setup.html">Salesforce Properties Setup</a></li>
+</ul> -->
+
+<!-- Template for sub-section that has just pages -->
+{% for item in site.data.navigation %}
+  {% if item.name == page.parent %}
+    {% for section in item.docs %}
+      {% if section.name == page.title %}
+        <h1><i class="{{ item.icon }}"></i> {{ page.title }}</h1>
+        <article class="bcls-article">
+          <summary>{{ page.description }}</summary>
+
+          <div class="col-12 col-lg-4 py-3">
+            <div class="card shadow-sm" style="background: white" onclick="window.location.href = '{{ item.url }}'">
+              <div class="card-body">
+                <section class="flex-container">
+                  <div>
+                    <ul class="list-group list-group-flush">
+                      {% for entry in section.docs %}
+                      <li class="list-group-item"><a href="{{ entry.url }}" style="text-decoration: none;">{{ entry.name }}</a></li>
+                      {% endfor %}
+                    </ul>
+                  </div>
+                </section>
+              </div>
+            </div>
+          </div>
+        </article>
+      {% endif %}
+    {% endfor %}
+  {% endif %}
+{% endfor %}

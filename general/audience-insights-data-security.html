@@ -1,0 +1,39 @@
+---
+title: 'Brightcove Audience Insights and Data Security'
+description: "It seems like every day brings a new report of a security breach with consumer data exposed or stolen. As a result, companies are rightly tightening their data sharing policies with their vendors. Ensuring that the best security practices are employed is a prerequisite for any good partnership. The following policies are a few that Brightcove Audience Insights utilize to protect our customers’ data."
+parent: General Information
+---
+
+<h1>{{ page.title }}</h1>
+<article class="bcls-article">
+  <summary>{{ page.description }}</summary>
+  <section class="bcls-section">
+    <h2 id="secure_protocols">Secure protocols</h2>
+    <p>When retrieving data from a partner system or a customer’s data store, we use secure protocols like HTTPS or SFTP. Once ingested, customer data is sequestered in an S3 bucket with limited access granted, even to our employees. After the data is harmonized, accessing the API or Insights Scorecard requires a robust username and password that sets a temporary session cookie for each user.</p>
+  </section>
+  <section class="bcls-section">
+    <h2 id="gather_the_least_necessary_data">Gather the least necessary data</h2>
+    <p>We only pull data we need to power the Insights Scorecard. Everything else is left behind in the customer or vendor system. In the event of an accident or malicious act, we cannot lose control of something we do not have.</p>
+  </section>
+  <section class="bcls-section">
+    <h2 id="Pseudonymization">Pseudonymization</h2>
+    <p>With the introduction of the GDPR standard in 2018, the concept of pseudonymization became a global policy for Brightcove Audience Insights. While we normally avoid collecting PII, there are a few use cases that require an email or IP address. Per GDPR, this data is immediately encrypted upon ingest using a one-way hash. The source data is deleted. There is no way back from the hashed result to the source data.</p>
+  </section>
+  <section class="bcls-section">
+    <h2 id="in_the_cloud">It’s in the Cloud</h2>
+    <p>Physical access to the data storage device is always a concern. This is where using a cloud-based service like AWS has its advantages. Access to the AWS data centers is strictly guarded and their architecture makes it near impossible to tell which data is on which server or storage array.</p>
+  </section>
+  <section class="bcls-section">
+    <h2 id="development_deployment_standards">Development &amp; Deployment Standards</h2>
+    <p>Brightcove Audience Insights has established SDLC processes to ensure delivery of quality software services. We use an AGILE-based planning process, version control, automated testing, and automated deployment. Automation ensures not only reliable delivery but also an auditable process based solely on the resources noted in our version control system.</p>
+  </section>
+  <section class="bcls-section">
+    <h2 id="a_culture_of_pulling_the_emergency_brake">A Culture of Pulling the Emergency Brake</h2>
+    <p>Since we are only as strong as our weakest link, each teammate at Brightcove Audience Insights is reminded that they have a responsibility to speak up if they have a concern. It’s better to delay a release and even miss a deadline if a little extra time allows us to test a potential weakness and ensure our security standards remain strong.</p>
+  </section>
+  <section class="bcls-section">
+    <h2 id="always_more_to_do">Always more to do</h2>
+    <p>Improving the policies and tactics we employ to secure our customers’ data is a never-ending task. We continually review our policies, stay abreast of industry best practices and threats, and learn from the rigorous security reviews we’ve already cleared with top tier media companies and operators. We roll this knowledge up and invest the time required to upgrade and secure the data entrusted to us.</p>
+  </section>
+</article>
+                                      

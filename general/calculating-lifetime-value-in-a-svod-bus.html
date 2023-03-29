@@ -1,0 +1,241 @@
+---
+title: Calculating Lifetime Value in a SVoD Business    
+description: Audience data insights help you predict how your business will perform and invest in it with confidence
+parent: General Information
+---
+
+    <h1>{{ page.title }}</h1>
+        <article class="bcls-article">
+          <section class="bcls-section">
+            <h2 id="invest_with_confidence_in_your_svo_d_business">Invest with Confidence in Your SVoD Business</h2>
+            <p>How much revenue do you think you will receive from your next customer? How long will they stay in the service and what discounts matter to ensure a long-term customer relationship? Is that exclusive content license only driving short-term subscribers or is it a gateway to a new happy customer?</p>
+            <p>
+              Each of these questions relies on understanding the lifetime value (LTV) of a customer and using that value to compare natural segments of your users to find veins of satisfied (and long-subscribing) customers. I’m going to cover each of these questions across three blog posts, diving into the methods to calculate the LTV and some of the pitfalls we watch out for in the
+              <a href="https://insights.wicketlabs.com/dashboard/summary">Insights Scorecard</a>.
+            </p>
+            <p>Let’s start with what seems like a simple question: “How much do you think you’ll be paid by your next customer?” Will they stay for a few months, then quit? Or, will they join the ranks of your multi-year subscribers? It’s obvious how important this question is — how else would you know whether spending $30 or $60 to acquire a new customer is worthwhile? Understanding the LTV for a specific new customer is very hard, but understanding the LTV of a group of new users shouldn’t be too difficult, right?</p>
+          </section>
+          <section class="bcls-section">
+            <h2 id="calculating_subscriber_ltv">Calculating Subscriber LTV</h2>
+            <p>Let’s take the example of PolarFlix, a site for Arctic enthusiasts. They charge $10 per month and have a fairly high monthly churn rate of 20%.</p>
+            <p>
+              One of the most common ways to measure the lifetime value of a customer is using the churn rate and your average revenue per user (ARPU). We can simply combine those two values to a group of users and, on average, it should reflect the LTV of our average new customer. The formula looks like
+              <strong>ARPU/Monthly Churn</strong>
+              . For PolarFlix, this is 10/.2 = $50
+            </p>
+            <p>
+              Let’s play this out a bit. If you imagine that PolarFlix adds 100 customers on December 1st, we would expect this cohort to accrue payments to PolarFlix each month. Here’s a table showing how this “Monthly Churn Model” behaves. (
+              <em>Note, the actual formula is totally okay with partial customers, because statistics, but I rounded these examples.</em>
+              )
+            </p>
+            <table class="bcls-table">
+              <thead class="bcls-table__head">
+                <tr>
+                  <th>Date</th>
+                  <th>Current</th>
+                  <th>Lost</th>
+                  <th>Revenue</th>
+                  <th>LTV</th>
+                </tr>
+              </thead>
+              <tbody class="bcls-table__body">
+                <tr>
+                  <td>12/1/2018</td>
+                  <td>100</td>
+                  <td>&nbsp;</td>
+                  <td>$1,000</td>
+                  <td>$10.00</td>
+                </tr>
+                <tr>
+                  <td>1/1/2019</td>
+                  <td>80</td>
+                  <td>20</td>
+                  <td>$1,800</td>
+                  <td>$18.00</td>
+                </tr>
+                <tr>
+                  <td>2/1/2019</td>
+                  <td>64</td>
+                  <td>16</td>
+                  <td>$2,440</td>
+                  <td>$24.40</td>
+                </tr>
+                <tr>
+                  <td>3/1/2019</td>
+                  <td>51</td>
+                  <td>13</td>
+                  <td>$2,950</td>
+                  <td>$29.50</td>
+                </tr>
+                <tr>
+                  <td>4/1/2019</td>
+                  <td>41</td>
+                  <td>10</td>
+                  <td>$3,360</td>
+                  <td>$33.60</td>
+                </tr>
+                <tr>
+                  <td>5/1/2019</td>
+                  <td>33</td>
+                  <td>8</td>
+                  <td>$3,690</td>
+                  <td>$36.90</td>
+                </tr>
+                <tr>
+                  <td>6/1/2019</td>
+                  <td>26</td>
+                  <td>7</td>
+                  <td>$3,950</td>
+                  <td>$39.50</td>
+                </tr>
+                <tr>
+                  <td>7/1/2019</td>
+                  <td>21</td>
+                  <td>5</td>
+                  <td>$4,160</td>
+                  <td>$41.60</td>
+                </tr>
+                <tr>
+                  <td>8/1/2019</td>
+                  <td>17</td>
+                  <td>4</td>
+                  <td>$4,330</td>
+                  <td>$43.30</td>
+                </tr>
+                <tr>
+                  <td>9/1/2019</td>
+                  <td>14</td>
+                  <td>3</td>
+                  <td>$4,470</td>
+                  <td>$44.70</td>
+                </tr>
+                <tr>
+                  <td>10/1/2019</td>
+                  <td>11</td>
+                  <td>3</td>
+                  <td>$4,580</td>
+                  <td>$45.80</td>
+                </tr>
+                <tr>
+                  <td>11/1/2019</td>
+                  <td>9</td>
+                  <td>2</td>
+                  <td>$4,670</td>
+                  <td>$46.70</td>
+                </tr>
+                <tr>
+                  <td>12/1/2019</td>
+                  <td>7</td>
+                  <td>2</td>
+                  <td>$4,740</td>
+                  <td>$47.40</td>
+                </tr>
+                <tr>
+                  <td>1/1/2020</td>
+                  <td>6</td>
+                  <td>1</td>
+                  <td>$4,800</td>
+                  <td>$48.00</td>
+                </tr>
+                <tr>
+                  <td>2/1/2020</td>
+                  <td>5</td>
+                  <td>1</td>
+                  <td>$4,850</td>
+                  <td>$48.50</td>
+                </tr>
+                <tr>
+                  <td>3/1/2020</td>
+                  <td>4</td>
+                  <td>1</td>
+                  <td>$4,890</td>
+                  <td>$48.90</td>
+                </tr>
+                <tr>
+                  <td>4/1/2020</td>
+                  <td>3</td>
+                  <td>1</td>
+                  <td>$4,920</td>
+                  <td>$49.20</td>
+                </tr>
+                <tr>
+                  <td>5/1/2020</td>
+                  <td>2</td>
+                  <td>1</td>
+                  <td>$4,940</td>
+                  <td>$49.40</td>
+                </tr>
+                <tr>
+                  <td>6/1/2020</td>
+                  <td>2</td>
+                  <td>0</td>
+                  <td>$4,960</td>
+                  <td>$49.60</td>
+                </tr>
+                <tr>
+                  <td>7/1/2020</td>
+                  <td>1</td>
+                  <td>1</td>
+                  <td>$4,970</td>
+                  <td>$49.70</td>
+                </tr>
+                <tr>
+                  <td>8/1/2020</td>
+                  <td>1</td>
+                  <td>0</td>
+                  <td>$4,980</td>
+                  <td>$49.80</td>
+                </tr>
+                <tr>
+                  <td>9/1/2020</td>
+                  <td>1</td>
+                  <td>0</td>
+                  <td>$4,990</td>
+                  <td>$49.90</td>
+                </tr>
+                <tr>
+                  <td>10/1/2020</td>
+                  <td>1</td>
+                  <td>1</td>
+                  <td>$5,000</td>
+                  <td>$50.00</td>
+                </tr>
+              </tbody>
+            </table>
+            <figure class="bcls-figure">
+              <img loading="lazy" aria-describedby="caption-attachment-27551" class="wp-image-27551 size-large" src="/assets/images/general/ltv-calc-1.webp" alt="chart of payments and lifetime value">
+              <figcaption class="bcls-caption--image">Payments and Lifetime Value</figcaption>
+            </figure>
+            <p>Dandy, right? We receive $50 per customer, so now I can allocate some of that to marketing, operations, and content licensing and keep the rest as our profit.</p>
+            <p>Well, sure, but if you actually did this, you would be underinvesting in your business. Because, in subscription-based businesses, the retention rate doesn’t actually follow average churn. Instead, what we see at Brightcove Audience Insights is that your new customers churn at a very high rate, often as much as 30-40% monthly churn over the first few billing cycles, while more tenured subscribers churn at a rate in the single digits.</p>
+            
+            <div id="attachment_27553" style="width: 1034px" class="wp-caption alignnone">
+              <img aria-describedby="caption-attachment-27553" loading="lazy" class="wp-image-27553 size-large" src="/assets/images/general/ltv-calc-2.webp" alt="chart of payments and lifetime value">
+              <p id="caption-attachment-27553" class="wp-caption-text">Fig. 2</p>
+            </div>
+            
+            <p>However, the actual customer loss curve for our example company, PolarFlix, shows the LTV for this cohort of customers is $66 on October 1, 2020, with over ten customers still active. For a service with 100,000 subscribers, that’s a $1.6 million difference.</p>
+            <p>
+              So, how do we make our formulas match our observed lifetime spending? We looked to academic marketing literature for the answer and find some great work that has been done by Peter Fader and Bruce Hardie. We’ve relied heavily on their work on CLV in contractual (i.e. renewing subscription) businesses.<sup class="footnote"> [ <a href="#1">1</a> ] </sup> Conceptually, this is pretty simple. We use historical data about our customers and create a retention curve. A retention curve shows the probability, as a value from 0 to 1, that a customer with a tenure of n days, will become a customer of tenure n+1 days. From that, it’s simple to show how much revenue we expect to receive. Mathematically, it’s more complicated, but that’s why we have computers!
+            </p>
+            <p>With the Fader and Hardie method, we can even predict the curve beyond the longest tenure of our customers, something that Kaplan-Meier, a very common survival analysis method cannot do. There is an important caveat to this method, though! As you can see in the chart above, the curve may only reach 0 many, many years in the future. You have to choose some cutoff date for valuing these customers. Given the pace of change in our business, it’s safe to say your service isn’t going to be the same in 2038!</p>
+            <p>At Brightcove Audience Insights, we looked at the actual retention curves of our customers and choose to estimate LTV through 1,000 days of subscription. This allows 2 cycles of churn for annual subscriptions and, for typical churn rates, captures enough of the extra value from the long-tenured subscribers to make a material difference in the LTV.</p>
+            <section class="bcls-section">
+              <h2 id="an_accurate_ltv_enables_better_investment">An accurate LTV enables better investment</h2>
+              <p>Now that you know a more accurate picture of your next customer’s payments, what will you do with this information?</p>
+              <p>An accurate LTV number lets you invest with confidence in acquiring more customers, license more content to address churn, or allows you to lower the price of your service to capture even more customers.</p>
+              <p>In addition, you can use LTV and churn measurements to compare natural segments of your customer base to understand what part of your customer base is healthy and which deserves additional investment. Given the advantages to the predictive model, we are upgrading the Insights Scorecard to base all LTV values on these retention curves. In future posts, we’ll discuss the implications on specific insights.</p>
+            </section>
+          </section>
+          <section class="bcls-section">
+            <h2 id="footnote">Footnotes</h2>
+            <ol>
+              <li>
+                A great starting point is their 2007 publication,
+                <a href="https://faculty.wharton.upenn.edu/wp-content/uploads/2012/04/Fader_hardie_jim_07.pdf" target="_blank" rel="noopener noreferrer" name="1">
+                  <em>How To Project Customer Retention</em>
+                </a>
+              </li>
+            </ol>
+          </section>
+                </article>

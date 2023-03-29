@@ -1,0 +1,956 @@
+<!DOCTYPE html>
+<html lang="en"> 
+    <head>
+        <title>Top 6 OTT Analytics Updates of 2020</title>
+        
+        <!-- Meta -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="It’s time for another post about the major updates to Audience Insights Dashboard. Even in the challenging times of 2020, our team has been hard at work adding powerful new features to boost the value of our flagship product.">
+        
+        <!-- Google Font -->
+        <link href="/assets/s-site-assets-stylesheets/fonts/poppins.css" rel="stylesheet">
+        <link rel="stylesheet" href="/assets/s-site-assets-stylesheets/fonts/articulat-site.css">
+        <link href="/assets/s-site-assets-stylesheets/fonts/source-code-pro.css" rel="stylesheet">
+        
+        <!-- FontAwesome JS-->
+        
+        <script src="https://kit.fontawesome.com/d67c74a882.js" crossorigin="anonymous"></script>  
+        
+        <!-- Plugins CSS -->
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.2/styles/atom-one-dark.min.css">
+        <link rel="stylesheet" href="/assets/s-site-assets-template-stylesheets/plugins/simplelightbox/simple-lightbox.min.css">
+
+        <!-- Theme CSS -->  
+        <link id="theme-style" rel="stylesheet" href="/assets/s-site-assets-template-stylesheets/css/theme.css">
+        <link rel="stylesheet" href="/assets/s-site-assets-stylesheets/prism.css">
+        <link rel="stylesheet" href="/assets/s-site-assets-template-stylesheets/custom-css/styles.css">
+
+
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-XBJC11HF8Z"></script>
+        <script translate="no">
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-XBJC11HF8Z');
+        </script>
+        <script src="/assets/s-site-assets-scripts/sixth-sense.js"></script>
+        <script src="/assets/s-site-assets-scripts/sajari-head.js"></script>
+        <script src="/assets/s-site-assets-scripts/feather.min.js"></script>
+
+    </head> 
+
+    <body class="docs-page">
+        
+
+<header class="header fixed-top">
+  <div class="branding docs-branding">
+    <div class="container-fluid position-relative py-2">
+      <div class="docs-logo-wrapper">
+        <button id="docs-sidebar-toggler" class="docs-sidebar-toggler"
+          type="button">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <div class="site-logo"><a class="navbar-brand"
+            href="https://support.brightcove.com/"
+            style="margin-left: 15px;">
+            <img class="logo-icon me-2"
+              src="/assets/s-site-assets-template-stylesheets/images/bc_logo_black_1@1x.png"
+              alt="logo" style="margin-bottom: 9px;">
+            <!-- <span class="logo-text">BRIGHTCOVE</span> -->
+          </a></div>
+      </div><!--//docs-logo-wrapper-->
+
+      <div class="docs-top-utilities d-flex justify-content-end
+        align-items-center">
+        
+        <!-- Search bar -->
+        <div id="nav-search-box" class="top-search-box d-none d-lg-flex" style="margin-right: 10px ;"></div>
+
+<select id="site_select" class="form-select select-focus" style="width:
+          20%; margin-right: 10px;" translate="no">
+          <option value="">Other Brightcove Docs</option>
+          
+          
+          <option value="https://support.brightcove.com" translate="no">Documentation Home</option>
+          
+          
+          
+          <option value="https://support.brightcove.com/" translate="no">-- VIDEO CLOUD --</option>
+          
+          
+          
+          <option value="https://studio.support.brightcove.com" translate="no">&nbsp;&nbsp;&nbsp;&nbsp;Video Cloud Studio</option>
+          
+          
+          
+          <option value="https://mstudio.support.brightcove.com" translate="no">&nbsp;&nbsp;&nbsp;&nbsp;Marketing Studio</option>
+          
+          
+          
+          <option value="https://player.support.brightcove.com" translate="no">&nbsp;&nbsp;&nbsp;&nbsp;Brightcove Player Development</option>
+          
+          
+          
+          <option value="https://apis.support.brightcove.com" translate="no">&nbsp;&nbsp;&nbsp;&nbsp;Video Cloud Platform APIs</option>
+          
+          
+          
+          <option value="https://sdks.support.brightcove.com" translate="no">&nbsp;&nbsp;&nbsp;&nbsp;Video Cloud Device SDKs</option>
+          
+          
+          
+          <option value="https://integrations.support.brightcove.com" translate="no">&nbsp;&nbsp;&nbsp;&nbsp;Integrations and CMS Connectors</option>
+          
+          
+          
+          <option value="https://general.support.brightcove.com" translate="no">&nbsp;&nbsp;&nbsp;&nbsp;Video Cloud General Information</option>
+          
+          
+          
+          <option value="https://support.brightcove.com/" translate="no">-- VIDEO ESSENTIALS --</option>
+          
+          
+          
+          <option value="https://audience-insights.support.brightcove.com" translate="no">&nbsp;&nbsp;&nbsp;&nbsp;Brightcove Audience Insights</option>
+          
+          
+          
+          <option value="https://beacon-help.support.brightcove.com" translate="no">&nbsp;&nbsp;&nbsp;&nbsp;Brightcove Beacon Studio</option>
+          
+          
+          
+          <option value="https://beacon.support.brightcove.com" translate="no">&nbsp;&nbsp;&nbsp;&nbsp;Brightcove Beacon Classic</option>
+          
+          
+          
+          <option value="https://corptv.support.brightcove.com" translate="no">&nbsp;&nbsp;&nbsp;&nbsp;CorpTV</option>
+          
+          
+          
+          <option value="https://live.support.brightcove.com" translate="no">&nbsp;&nbsp;&nbsp;&nbsp;Brightcove Live</option>
+          
+          
+          
+          <option value="https://zencoder.support.brightcove.com" translate="no">&nbsp;&nbsp;&nbsp;&nbsp;Zencoder</option>
+          
+          
+          
+          <option value="https://support.brightcove.com/" translate="no">-- VIDEO CLOUD ADD-ONS --</option>
+          
+          
+          
+          <option value="https://gallery.support.brightcove.com" translate="no">&nbsp;&nbsp;&nbsp;&nbsp;Brightcove Gallery</option>
+          
+          
+          
+          <option value="https://studio.support.brightcove.com/social/index.html" translate="no">&nbsp;&nbsp;&nbsp;&nbsp;Brightcove Social</option>
+          
+          
+          
+          <option value="https://interactivity.support.brightcove.com/index.html" translate="no">&nbsp;&nbsp;&nbsp;&nbsp;Brightcove Interactivity</option>
+          
+          
+          
+          <option value="https://ssai.support.brightcove.com" translate="no">&nbsp;&nbsp;&nbsp;&nbsp;Brightcove SSAI</option>
+          
+          
+          
+          <option value="https://campaign.support.brightcove.com" translate="no">&nbsp;&nbsp;&nbsp;&nbsp;Brightcove Campaign</option>
+          
+          
+        </select>
+
+        <select id="language_select" class="form-select select-focus" style="width: 10%;"
+          onchange="doGTranslate(this);" translate="no">
+          <!-- <option value="">Select Language</option> -->
+          <option value="en|en" translate="No">English</option>
+          <option value="en|zh-TW" translate="No">繁體中文</option>
+          <option value="en|fr" translate="No">Français</option>
+          <option value="en|de" translate="No">Deutsche</option>
+          <option value="en|ja" translate="No">日本語</option>
+          <option value="en|ko" translate="No">한국어</option>
+          <option value="en|es" translate="No">Español</option>
+        </select>
+
+        <script translate="no">
+          /* <![CDATA[ */
+          function doGTranslate(lang_pair) {if(lang_pair.value)lang_pair=lang_pair.value;if(lang_pair=='')return;var lang=lang_pair.split('|')[1];var plang=location.hostname.split('.')[0];if(plang.length !=2 && plang.toLowerCase() != 'zh-cn' && plang.toLowerCase() != 'zh-tw')plang='en';location.href=location.protocol+'//'+(lang == 'en' ? '' : lang+'.')+location.hostname.replace('www.', '').replace(RegExp('^' + plang + '\\.'), '')+location.pathname+location.search;}
+          /* ]]> */
+        </script>
+      </div>
+    </div>
+  </div>
+</header><!--//header-->
+
+<div class="docs-wrapper">
+  <div id="docs-sidebar" class="docs-sidebar" style="padding-right: 15px;">
+    <div id="nav-search-box" class="top-search-box d-lg-none p-3"></div>
+    <div class="row">
+      
+        <div id="side_nav" style="margin-left: 1em; display: inline-block; border-right: 1px solid #e5e5e6; padding-right: 1em;">
+          
+          <nav class="docs-nav sidenav" aria-label="Main">
+            <ul class="site-nav" style="list-style-type: none;">
+            
+            
+            
+            <li class="nav-item section-title"><a class="nav-link" href="/">Home</a></li>
+            
+            
+            
+            
+            <li class="nav-item section-title"><a class="nav-link" href="/getting-started/index.html"><span class="theme-icon-holder me-2">
+              <i class="fa-solid fa-plus"></i></span>&nbsp;Getting Started</a>
+              <ul role="list" class="section-items list-unstyled nav flex-column pb-3" style="display:none;">
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="/getting-started/overview-audience-insights.html">Overview: Audience Insights</a></li>
+              
+              
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="/getting-started/audience-insights-glossary.html">Audience Insights Glossary</a></li>
+              
+              
+              
+            </ul>
+            </li>
+            
+            
+            
+            <li class="nav-item section-title"><a class="nav-link" href="/general/index.html"><span class="theme-icon-holder me-2">
+              <i class="fa-solid fa-plus"></i></span>&nbsp;General Information</a>
+              <ul role="list" class="section-items list-unstyled nav flex-column pb-3" style="display:none;">
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="/general/automating-smarter-campaigns-with-user-s.html">Automating Smarter Campaigns with User Segments</a></li>
+              
+              
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="/general/audience-insights-data-security.html">Brightcove Audience Insights and Data Security</a></li>
+              
+              
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="/general/calculating-lifetime-value-in-a-svod-bus.html">Calculating Lifetime Value in a SVoD Business</a></li>
+              
+              
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="/general/content-as-context-for-better-segmentation.html">Content as Context for Better Segmentation</a></li>
+              
+              
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="/general/introducing-custom-insights.html">Custom Insights</a></li>
+              
+              
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="/general/enhance-hubspot-campaigns-with-the-wicke.html">Enhance HubSpot Campaigns with the Audience Insights Dashboard</a></li>
+              
+              
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="/general/looking-beyond-views-to-find-entertainme.html">Looking Beyond Views to Find Entertainment Value in OTT Content</a></li>
+              
+              
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="/general/measuring-content-momentum.html">Measuring Content Momentum</a></li>
+              
+              
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="/general/seeing-the-big-picture-of-your-ott-busin.html">Seeing the Big Picture of Your OTT Business</a></li>
+              
+              
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="/general/streamlining-workflow-with-automated-sub.html">Streamlining Workflow with Automated Subscriber Sync</a></li>
+              
+              
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="/general/understanding-content-through-the-lens-o.html">Understanding Content through the Lens of Your Customer Attention Index</a></li>
+              
+              
+              
+            </ul>
+            </li>
+            
+            
+            
+            <li class="nav-item section-title"><a class="nav-link" href="/guides/index.html"><span class="theme-icon-holder me-2">
+              <i class="fa-solid fa-plus"></i></span>&nbsp;Guides</a>
+              <ul role="list" class="section-items list-unstyled nav flex-column pb-3" style="display:none;">
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="/guides/summary/customer-summary.html">Customer Summary</a></li>
+              
+              
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="/guides/customers/current-customers.html">Customers</a></li>
+              
+              
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="/guides/conversions/conversions.html">Conversions</a></li>
+              
+              
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="/guides/lost-customers/lost-customers.html">Lost Customers</a></li>
+              
+              
+              
+              
+
+              <li class="nav-item subsection-title">
+                
+                <a class="nav-link" href="/guides/engagement/index.html">
+                  <span class="theme-icon-holder me-2"><i class="fa-solid fa-minus"></i></span>&nbsp;Engagement</a>
+                
+
+                <ul role="list" class="section-items list-unstyled nav flex-column pb-3" style="display:none;">
+                  
+                  
+                  
+                  <li class="nav-item"><a class="nav-link" href="/guides/engagement/engagement-overview.html">Engagement: Overview</a></li>
+                  
+                  
+                  
+                  
+                  
+                  <li class="nav-item"><a class="nav-link" href="/guides/engagement/engagement-usage-trends.html">Engagement: Usage Trends</a></li>
+                  
+                  
+                  
+                  
+                  
+                  <li class="nav-item"><a class="nav-link" href="/guides/engagement/engagement-status-over-time.html">Engagement: Status Over Time</a></li>
+                  
+                  
+                  
+                  
+                  
+                  <li class="nav-item"><a class="nav-link" href="/guides/engagement/engagement-sessions-over-time.html">Engagement: Sessions Over Time</a></li>
+                  
+                  
+                  
+                  
+                  
+                  <li class="nav-item"><a class="nav-link" href="/guides/engagement/engagement-hours-viewed-by.html">Engagement: Hours Viewed By</a></li>
+                  
+                  
+                  
+                </ul>
+              </li>
+              
+              
+              
+
+              <li class="nav-item subsection-title">
+                
+                <a class="nav-link" href="/guides/content/index.html">
+                  <span class="theme-icon-holder me-2"><i class="fa-solid fa-minus"></i></span>&nbsp;Content</a>
+                
+
+                <ul role="list" class="section-items list-unstyled nav flex-column pb-3" style="display:none;">
+                  
+                  
+                  
+                  <li class="nav-item"><a class="nav-link" href="/guides/content/content-overview.html">Content: Overview</a></li>
+                  
+                  
+                  
+                  
+                  
+                  <li class="nav-item"><a class="nav-link" href="/guides/content/content-catalog-by.html">Content: Catalog and Explorer</a></li>
+                  
+                  
+                  
+                  
+                  
+                  <li class="nav-item"><a class="nav-link" href="/guides/content/content-pupular-content-by.html">Content: Popular Content</a></li>
+                  
+                  
+                  
+                  
+                  
+                  <li class="nav-item"><a class="nav-link" href="/guides/content/content-trial-drivers-library.html">Content: Trial Drivers and Library Breakdown</a></li>
+                  
+                  
+                  
+                </ul>
+              </li>
+              
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="/guides/distribution/distribution.html">Distribution</a></li>
+              
+              
+              
+            </ul>
+            </li>
+            
+            
+            
+            <li class="nav-item section-title"><a class="nav-link" href="/insights/index.html"><span class="theme-icon-holder me-2">
+              <i class="fa-solid fa-plus"></i></span>&nbsp;Insights</a>
+              <ul role="list" class="section-items list-unstyled nav flex-column pb-3" style="display:none;">
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="/insights/linear-insights.html">Linear Insights</a></li>
+              
+              
+              
+            </ul>
+            </li>
+            
+            
+            
+            <li class="nav-item section-title"><a class="nav-link" href="/integration/index.html"><span class="theme-icon-holder me-2">
+              <i class="fa-solid fa-plus"></i></span>&nbsp;Integrations</a>
+              <ul role="list" class="section-items list-unstyled nav flex-column pb-3" style="display:none;">
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="/integration/integration-summary.html">Integrations Summary</a></li>
+              
+              
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="/integration/integration_spotlight_braze.html">Braze</a></li>
+              
+              
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="/integration/integration_spotlight_evergent.html">Evergent</a></li>
+              
+              
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="/integration/integration_spotlight_hubspot.html">HubSpot</a></li>
+              
+              
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="/integration/integration_spotlight_vimeo.html">Vimeo</a></li>
+              
+              
+              
+              
+
+              <li class="nav-item subsection-title">
+                
+                <a class="nav-link" href="/integration/salesforce-sales-cloud/index.html">
+                  <span class="theme-icon-holder me-2"><i class="fa-solid fa-minus"></i></span>&nbsp;Salesforce Sales Cloud</a>
+                
+
+                <ul role="list" class="section-items list-unstyled nav flex-column pb-3" style="display:none;">
+                  
+                  
+                  
+                  <li class="nav-item"><a class="nav-link" href="/integration/salesforce-sales-cloud/overview-sfsc-integration.html">Overview: Salesforce Sales Cloud Integration</a></li>
+                  
+                  
+                  
+                  
+                  
+                  <li class="nav-item"><a class="nav-link" href="/integration/salesforce-sales-cloud/salesforce-connected-app-setup.html">Salesforce Connected App Setup</a></li>
+                  
+                  
+                  
+                  
+                  
+                  <li class="nav-item"><a class="nav-link" href="/integration/salesforce-sales-cloud/salesforce-properties-setup.html">Salesforce Properties Setup</a></li>
+                  
+                  
+                  
+                  
+                  
+                  <li class="nav-item"><a class="nav-link" href="/integration/salesforce-sales-cloud/audience-insights-publish-integration-setup.html">Audience Insights Salesforce Integration Setup</a></li>
+                  
+                  
+                  
+                </ul>
+              </li>
+              
+              
+            </ul>
+            </li>
+            
+            
+            
+            <li class="nav-item section-title"><a class="nav-link" href="/use-cases/index.html"><span class="theme-icon-holder me-2">
+              <i class="fa-solid fa-plus"></i></span>&nbsp;Use Cases</a>
+              <ul role="list" class="section-items list-unstyled nav flex-column pb-3" style="display:none;">
+              
+              
+
+              <li class="nav-item subsection-title">
+                
+                <a class="nav-link" href="/use-cases/acquisition/index.html">
+                  <span class="theme-icon-holder me-2"><i class="fa-solid fa-minus"></i></span>&nbsp;Acquisition</a>
+                
+
+                <ul role="list" class="section-items list-unstyled nav flex-column pb-3" style="display:none;">
+                  
+                  
+                  
+                  <li class="nav-item"><a class="nav-link" href="/use-cases/acquisition/how_to_find_more_happy_customers_with_fa.html">Find Customers with Facebook</a></li>
+                  
+                  
+                  
+                  
+                  
+                  <li class="nav-item"><a class="nav-link" href="/use-cases/acquisition/how_to_find_more_happy_customers_with_go.html">Find Customers with Google Ads</a></li>
+                  
+                  
+                  
+                  
+                  
+                  <li class="nav-item"><a class="nav-link" href="/use-cases/acquisition/how_to_find_more_happy_customers_with_tw.html">Find Customers with Twitter</a></li>
+                  
+                  
+                  
+                  
+                  
+                  <li class="nav-item"><a class="nav-link" href="/use-cases/acquisition/running_better_campaigns_using_initial_v.html">Running Better Campaigns</a></li>
+                  
+                  
+                  
+                </ul>
+              </li>
+              
+              
+              
+
+              <li class="nav-item subsection-title">
+                
+                <a class="nav-link" href="/use-cases/retention/index.html">
+                  <span class="theme-icon-holder me-2"><i class="fa-solid fa-minus"></i></span>&nbsp;Retention</a>
+                
+
+                <ul role="list" class="section-items list-unstyled nav flex-column pb-3" style="display:none;">
+                  
+                  
+                  
+                  <li class="nav-item"><a class="nav-link" href="/use-cases/retention/promoting_upgrades_to_annual_plans.html">Promoting Upgrades</a></li>
+                  
+                  
+                  
+                  
+                  
+                  <li class="nav-item"><a class="nav-link" href="/use-cases/retention/using_genre_to_match_viewers_with_content.html">Using Genre to Match Content</a></li>
+                  
+                  
+                  
+                </ul>
+              </li>
+              
+              
+              
+
+              <li class="nav-item subsection-title">
+                
+                <a class="nav-link" href="/use-cases/win-back/index.html">
+                  <span class="theme-icon-holder me-2"><i class="fa-solid fa-minus"></i></span>&nbsp;Win-back</a>
+                
+
+                <ul role="list" class="section-items list-unstyled nav flex-column pb-3" style="display:none;">
+                  
+                  
+                  
+                  <li class="nav-item"><a class="nav-link" href="/use-cases/win-back/exclusive_content_alerts.html">Exclusive Content Alerts</a></li>
+                  
+                  
+                  
+                  
+                  
+                  <li class="nav-item"><a class="nav-link" href="/use-cases/win-back/how_to_win_back_lost_subscribers.html">Win-back Lost Subscribers</a></li>
+                  
+                  
+                  
+                  
+                  
+                  <li class="nav-item"><a class="nav-link" href="/use-cases/win-back/new_app_or_device_based_on_their_primary.html">Primary Viewing Device</a></li>
+                  
+                  
+                  
+                  
+                  
+                  <li class="nav-item"><a class="nav-link" href="/use-cases/win-back/new_content_based_on_past_viewing.html">Content Based on Viewing</a></li>
+                  
+                  
+                  
+                  
+                  
+                  <li class="nav-item"><a class="nav-link" href="/use-cases/win-back/price_change_awareness_offers.html">Price Change Awareness</a></li>
+                  
+                  
+                  
+                </ul>
+              </li>
+              
+              
+            </ul>
+            </li>
+            
+            
+            
+            <li class="nav-item section-title"><a class="nav-link" href="/support/"><span class="theme-icon-holder me-2">
+              <i class="fa-solid fa-plus"></i></span>&nbsp;Support</a>
+              <ul role="list" class="section-items list-unstyled nav flex-column pb-3" style="display:none;">
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="/support/contact-sales.html">Contact Sales</a></li>
+              
+              
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="/support/viewing-brightcove-system-status-page.html">Viewing the Brightcove System Status Page</a></li>
+              
+              
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="/support/known-issues-studio-brightcove-player-and-apis.html">Known Issues</a></li>
+              
+              
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="/support/opening-case-with-brightcove-support.html">Opening a Support Case</a></li>
+              
+              
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="/support/reset-support-portal-password.html">Reset Your Support Portal Password</a></li>
+              
+              
+              
+            </ul>
+            </li>
+            
+            
+          </ul>
+          </nav>
+        </div>
+      </div>
+    </div><!--//docs-sidebar-->
+  </div>
+</div>
+
+<div style="margin-top: 20px;">
+  <div class="docs-content" style="padding-bottom: 0px;">
+    <div class="container">
+      <div class="docs-overview">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            
+            <li class="breadcrumb-item"><a class="theme-link" href="/">Home</a></li>
+            
+            
+            <li class="breadcrumb-item"><a class="theme-link" href="/source-docs/">Source docs</a></li>
+            
+            
+            
+            <li class="breadcrumb-item"><a class="theme-link" href="/source-docs/blog-posts/">Blog posts</a></li>
+            
+            
+            
+            <li class="breadcrumb-item active" aria-current="page">Top 6 OTT Analytics Updates of 2020</li>
+            
+            
+          </ol>
+        </nav>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="docs-content">
+  <div class="container">
+    <div class="docs-overview py-5">
+      
+      <div class="centered-inpage-nav" id="centered_inpage_nav">
+        <nav id="centered_toc">
+          <select id="centered_in_page_toc" class="form-select select-focus"></select>
+        </nav>
+      </div>
+      <br>
+      
+      
+<h1>Top 6 OTT Analytics Updates of 2020</h1>
+<article class="bcls-article">
+  <summary>It’s time for another post about the major updates to Audience Insights Dashboard. Even in the challenging times of 2020, our team has been hard at work adding powerful new features to boost the value of our flagship product.</summary>
+  <h2>Feature Updates for Audience Insights Dashboard</h2>
+  <p class="intro"><span class="et-dropcap">I</span>t’s been some time since we posted a digest of the latest OTT Analytics updates to Audience Insights Dashboard. Even in the challenging times of 2020, our team has been hard at work adding powerful new features to boost the effectiveness of our flagship product.</p>
+  <p>One important detail about many of our updates is that they incorporate customer feedback into the Audience Insights Dashboard. This has added even more value to the product and benefits the larger community as a whole. What you’ll find below is a healthy mix of customer-driven features as well as strategic investments we’ve made in the functionality of Audience Insights Dashboard that broaden the value for everyone.</p>
+  <p>So, without further ado, let’s take a look at the major updates to the Audience Insights Dashboard so far this year.</p>
+  <h3>Content Catalog</h3>
+  <p>The Content tab of the Audience Insights Dashboard consistently drives high engagement amongst our customers. This reason alone suggested to us that it would be an area ripe for updates that could provide more and quicker value to our customers. By taking your requests to heart, we were able to establish some themes where we felt our updates would pack a ton of functionality into one powerful table to address the requests of:</p>
+  <ul>
+  <li>Exploring the entire catalog instead of just popular content</li>
+  <li>A searchable interface</li>
+  <li>Comparing VOD vs. Linear/Live consumption</li>
+  <li>And supporting sports metadata</li>
+  </ul>
+  <p>We’ve <a href="https://www.wicketlabs.com/wicket-blog/looking-beyond-views-find-entertainment-value-ott-content/">packed a ton of functionality into the Content Catalog wicket</a>, which allows you to see data for every title in your catalog. This provides you with more options for exploring the overall effectiveness of your catalog.</p>
+  <div id="attachment_32616" style="width: 810px" class="wp-caption alignnone"><img aria-describedby="caption-attachment-32616" class="wp-image-32616 size-full" src="//m2d8t6y5.stackpathcdn.com/wp-content/uploads/2020/02/sports-metadata-taxonomy.png" alt="Sports metadata taxonomy" width="800" height="113" srcset="//m2d8t6y5.stackpathcdn.com/wp-content/uploads/2020/02/sports-metadata-taxonomy.png 800w, //m2d8t6y5.stackpathcdn.com/wp-content/uploads/2020/02/sports-metadata-taxonomy-480x68.png 480w" sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) 800px, 100vw"><p id="caption-attachment-32616" class="wp-caption-text">Fig. 1 – The Content tab supports the metadata taxonomy of sports content.</p></div>
+  <ul>
+  <li>You now have really powerful ways to sort and filter your entire library, making uncovering new insights easy and actionable</li>
+  <li>Search allows you to find any title easily</li>
+  <li>If you offer linear channels and/or live events, you can now compare that consumption in contrast to your on-demand catalog</li>
+  <li>Sports metadata now receives the first-class treatment with dynamically tagged content for sport, league, season or event, and sorted by audience size, views, etc. Coupled with support for live viewing engagement, this gives you a powerful tool to sports OTT services and services that provide a mix of sports and entertainment</li>
+  </ul>
+  <h3>Weekly &amp; Monthly Snapshots of the Summary Page</h3>
+  <p>Another update to the Audience Insights Dashboard which was created based on customer requests was the <a href="https://www.wicketlabs.com/wicket-blog/product-development-spotlight-summary-page/">Summary tab</a>. To provide a supplement to or full replacement of weekly executive reports that were time-consuming to develop.</p>
+  <p>What resulted was a collaborative effort between our team and our customers to provide a portable, focused, and compact page that met the requirements to by adopting a more compact style and presenting a lot of information in a small package.</p>
+  <div id="attachment_32063" style="width: 1010px" class="wp-caption alignnone"><img aria-describedby="caption-attachment-32063" class="wp-image-32063 size-full" src="//m2d8t6y5.stackpathcdn.com/wp-content/uploads/2020/01/summary-page-v2.png" alt="summary page V2" width="1000" height="421" srcset="//m2d8t6y5.stackpathcdn.com/wp-content/uploads/2020/01/summary-page-v2.png 1000w, //m2d8t6y5.stackpathcdn.com/wp-content/uploads/2020/01/summary-page-v2-980x413.png 980w, //m2d8t6y5.stackpathcdn.com/wp-content/uploads/2020/01/summary-page-v2-480x202.png 480w" sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) and (max-width: 980px) 980px, (min-width: 981px) 1000px, 100vw"><p id="caption-attachment-32063" class="wp-caption-text">Fig. 2 – Audience Insights Dashboard Summary tab</p></div>
+  <ul>
+  <li>We added the ability to choose any week or month (going back 52 weeks) to see a snapshot of the executive summary</li>
+  <li>With easy printing/PDF export, this offers a great way of comparing and contrasting your business at key inflection points</li>
+  </ul>
+  <p>Choosing a week or month is done by simply selecting the date range in the upper left corner of the Summary Page and choosing the range. All wickets will automatically update to the date range selected.</p>
+  <h2>Distribution</h2>
+  <p>The <a href="https://insights.wicketlabs.com/dashboard/summarythird-party-video-distribution-channels/">video Distribution</a> tab of Audience Insights Dashboard is a great place to see integrated information from your third-party app stores and distribution partners. Originally launched with support for the Apple App Store, the Google Play Store, and the Amazon Channels store, we’ve since added two more integrations to the Distribution tab.</p>
+  <div id="attachment_34252" style="width: 1010px" class="wp-caption alignnone"><img onload="Wpfcllloading="lazy" aria-describedby="caption-attachment-34252" class="wp-image-34252 size-full" data-wpfc-original-src="//m2d8t6y5.stackpathcdn.com/wp-content/uploads/2020/07/video-distribution-store-breakdown.png" alt="Store Breakdown wicket on Distribution tab" width="1000" height="475" data-wpfc-original-srcset="//m2d8t6y5.stackpathcdn.com/wp-content/uploads/2020/07/video-distribution-store-breakdown.png 1000w, //m2d8t6y5.stackpathcdn.com/wp-content/uploads/2020/07/video-distribution-store-breakdown-980x466.png 980w, //m2d8t6y5.stackpathcdn.com/wp-content/uploads/2020/07/video-distribution-store-breakdown-480x228.png 480w" data-wpfc-original-sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) and (max-width: 980px) 980px, (min-width: 981px) 1000px, 100vw"><p id="caption-attachment-34252" class="wp-caption-text">Fig. 3 – Video Distribution store breakdown</p></div>
+  <h4>Roku Channel Store</h4>
+  <p>Adding an <a href="https://www.wicketlabs.com/wicket-blog/roku-channel-store-integration/">integration for the Roku Channel Store</a> was essential to supporting the distribution and promotional efforts of our customers. As with our other integrations, it’s fully automated and a huge time-saver, allowing internal teams to save hours per week compiling reports.</p>
+  <h4>X1 App Store</h4>
+  <p>Many of our Distribution customers have partnerships with Comcast’s <a href="https://www.wicketlabs.com/wicket-blog/comcast-x1-app-store-integration/">Xfinity X1 App Store</a>, so naturally, they wanted to see reporting data from this store alongside data from the Amazon Channel Store, Apple iTunes, Google Play, and the Roku Channel Store. The Distribution tab now fully supports the integration of the X1 App Store reports.</p>
+  <h3>Engagement Status</h3>
+  <p>We knew that the current definitions being used were not good enough for OTT video services. Our customers needed a better understanding of their subscribers and how to take appropriate action when it makes sense to do so to keep them engaged.</p>
+  <div id="attachment_33071" style="width: 1010px" class="wp-caption alignnone"><img onload="Wpfcllloading="lazy" aria-describedby="caption-attachment-33071" class="wp-image-33071 size-full" data-wpfc-original-src="//m2d8t6y5.stackpathcdn.com/wp-content/uploads/2020/05/engagement-status-over-time.png" alt="chart of Engagement Status Over Time" width="1000" height="477" data-wpfc-original-srcset="//m2d8t6y5.stackpathcdn.com/wp-content/uploads/2020/05/engagement-status-over-time.png 1000w, //m2d8t6y5.stackpathcdn.com/wp-content/uploads/2020/05/engagement-status-over-time-980x467.png 980w, //m2d8t6y5.stackpathcdn.com/wp-content/uploads/2020/05/engagement-status-over-time-480x229.png 480w" data-wpfc-original-sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) and (max-width: 980px) 980px, (min-width: 981px) 1000px, 100vw"><p id="caption-attachment-33071" class="wp-caption-text">Fig. 4 – Engagement Status Over Time for SVoD users</p></div>
+  <p>We <a href="https://www.wicketlabs.com/wicket-blog/redefining-engagement-for-ott-video-services/">introduced the concept of <i>Engagement Status</i></a> into the Audience Insights Dashboard. Every user in your account who has at least one video view is assigned an engagement status that changes based on a user’s engagement patterns. This status not only tells you the current state of your user base (and in fact each user) but also gives you directional information regarding whether users are becoming more or less engaged. We provide a primer in the Scorecard to help you understand what each status means and how to think about them in concert.</p>
+  <p>The graph below shows engagement status over time. You can see views, hours viewed, audience size, and sessions over time broken down by <i>Engagement Status</i>. Additionally, engagement status is now a field included in <a href="https://www.wicketlabs.com/wicket-blog/turning-insights-into-action-introducing-subscriber-export/">subscriber export</a> to allow you to react to this data to drive healthier, long-term relationships with each of your subscribers.</p>
+  <h3>Content Explorer Enhancement</h3>
+  <p>Here’s one you probably didn’t know! We completely redesigned the Content Explorer in the Audience Insights Dashboard. Content Explorer is a great way to find content + audience engagement opportunities.</p>
+  <div id="attachment_34014" style="width: 710px" class="wp-caption aligncenter"><img onload="Wpfcllloading="lazy" aria-describedby="caption-attachment-34014" class="wp-image-34014" data-wpfc-original-src="//m2d8t6y5.stackpathcdn.com/wp-content/uploads/2020/06/content-explorer.png" alt="Content Explorer" width="700" height="289"><p id="caption-attachment-34014" class="wp-caption-text">Fig. 5 – Content Explorer with Attention Index</p></div>
+  <p>The biggest change we made to Content Explorer was to integrate the <a href="https://www.wicketlabs.com/wicket-blog/understanding-content-through-lens-your-customer/">Attention Index</a>. Now you can not only see audience overlap but also get a sense of the relative entertainment value of the content you choose to promote. Other significant upgrades include:</p>
+  <ul>
+  <li>Ability to filter primary or connected content by movies or series</li>
+  <li>Show 250 titles most connected to primary title</li>
+  <li>Preset filters/queries that make it easy to find <i>Hidden Gems</i>, and other highly promotable content pairings</li>
+  <li>Enhanced audience export</li>
+  <li>Content list export</li>
+  </ul>
+  <h3>Date Range Updates</h3>
+  <p>This update is a bit more under-the-radar but it is another update that was performed to provide a better user experience for our customers. In essence, this update affords customers to look at the last few complete weeks, months, quarters, and years. When selected, this is limited to the primary graph and key metrics.</p>
+  <p>The Audience Insights Dashboard generally shows data on a rolling basis; last 7 days, 30 days, 90 days, etc. Our customers also wanted to see numbers for <i>July</i> or <i>2019</i>. This update provides customers the numbers they’re looking for in specific date ranges for reporting purposes.</p>
+  <h2>Wrapping it Up</h2>
+  <p>We’re far from finished. With so many new updates coming to Audience Insights Dashboard, we’re working on solutions for multiple segments of the OTT industry.</p>
+</article>
+
+<!-- <div class="col-sm-2 right-side-bar" style="display: inline-block;max-width: 20%;"> -->
+  
+  <nav class="right-side-nav" id="right_side_nav">
+    <h6 class="toc">Page Contents</h6>
+    <ul id="in_page_nav" class="list-none"></ul>
+  </nav>
+  
+<!-- </div> -->
+</div>
+</div>
+</div>
+<div class="page-content" style="background-color: rgb(1, 5, 14);">
+  <div class="container" style="width: 50%;">
+    <footer class="py-5">
+      <div class="row">
+        <div class="col-6 col-md">
+          <h5 class="h5-text">Brightcove Support</h5>
+          <ul class="list-unstyled text-small" style="color: white ;">
+            <li><a class="a-text" href="https://status.brightcove.com">System Status</a></li>
+            <li><a class="a-text" href="https://supportportal.brightcove.com">Contact Support</a></li>
+            <li><a class="a-text" href="https://support.brightcove.com/search.html">Search all documentation</a></li>
+          </ul>
+        </div>
+      
+        <div class="col-6 col-md">
+          <h5 class="h5-text">Training</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="a-text" href="https://studio.support.brightcove.com/get-started/training/online-training-courses.html">Online courses</a></li>
+            <li><a class="a-text" href="https://studio.support.brightcove.com/get-started/training/register-training.html">Register for a course</a></li>
+            <li><a class="a-text" href="https://academy.brightcove.com/">Brightcove Academy</a></li>
+          </ul>
+        </div>
+      
+        <div class="col-6 col-md">
+          <h5 class="h5-text">Brightcove</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="a-text" href="https://www.brightcove.com">Brightcove.com</a></li>
+            <li><a class="a-text" href="https://community.brightcove.com/s/">Bright Spot Community</a></li>
+            <li><a class="a-text" href="https://support.brightcove.com/product-updates.html">Product release notes</a></li>
+            <li><a class="a-text" href="https://support.brightcove.com/doc-updates.html">Documentation updates</a></li>
+          </ul>
+        </div>
+      </div>
+    
+      <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+      <p>© Brightcove Inc. All rights reserved.</p>
+      <a class="a-text" href="https://www.brightcove.com/en/legal/privacy">Privacy</a> 
+      <a class="a-text" href="https://www.brightcove.com/en/terms-and-conditions">Terms &amp; Conditions</a>
+
+      <ul class="list-unstyled d-flex">
+        <li class="ms-3"><a href="https://www.linkedin.com/company/16439"
+        title="LinkedIn" target="_blank" class="gf-social-linkedin"
+        style="margin-right: 1rem;"><i data-feather="linkedin"
+          style="color:#8E9093;height: 1.25rem;"></i></a></li>
+
+        <li class="ms-3"><a
+        href="https://twitter.com/brightcove" title="Twitter" target="_blank"
+        class="gf-social-twitter" style="margin-right: 1rem;"><i
+          data-feather="twitter" style="color:#8E9093;height: 1.25rem;"></i></a></li>
+
+        <li class="ms-3"><a
+        href="https://www.facebook.com/Brightcove" title="Facebook"
+        target="_blank" class="gf-social-facebook"><i data-feather="facebook"
+          style="color:#8E9093;height: 1.25rem;"></i></a></li>
+      </ul>
+      </div>
+    </footer>
+  </div>
+</div>
+
+
+<script translate="no">
+  var searchBox = sajari.init({
+    mode: "search-box",
+    project: "1588255093746585379", // Set this to your project.
+    collection: "brightcove-documentation", // Set this to your collection.
+    instantPipeline: "autocomplete", // Pipeline used as you type
+    inputPlaceholder: "Search", // Input element placeholder,
+    styling: {
+      components: {
+        
+        input: {
+          container: {
+          backgroundColor: 'white',
+          }
+        
+        }
+      }
+    },
+    maxSuggestions: 5, // Maximum number of suggestions to show
+      attachSearchBox: document.getElementById("nav-search-box") // DOM element to attach to
+  });
+
+  
+
+
+    searchBox("sub", "pipeline.search-sent", function (_, query) {
+    window.location = "/search.html?q=" + encodeURIComponent(query.q);
+    });
+  
+  </script>
+  
+  <!-- Javascript -->          
+  <script src="/assets/s-site-assets-template-stylesheets/plugins/popper.min.js"></script>
+  <script src="/assets/s-site-assets-template-stylesheets/plugins/bootstrap/js/bootstrap.min.js"></script>  
+
+
+  <!-- Page Specific JS -->
+  <script src="/assets/s-site-assets-template-stylesheets/plugins/smoothscroll.min.js"></script>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/highlight.min.js"></script> -->
+  <!-- <script src="/assets/s-site-assets-template-stylesheets/js/highlight-custom.js"></script>  -->
+  <script src="/assets/s-site-assets-template-stylesheets/plugins/simplelightbox/simple-lightbox.min.js"></script>      
+  <script src="/assets/s-site-assets-template-stylesheets/plugins/gumshoe/gumshoe.polyfills.min.js"></script> 
+  <script src="/assets/s-site-assets-template-stylesheets/js/docs.js"></script> 
+
+  <!-- original footer components -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+  <script src="/assets/s-site-assets-scripts/https-fix.js"></script>
+  <script src="/assets/s-site-assets-scripts/setDate.js"></script>
+  <script src="/assets/s-site-assets-scripts/selector.js"></script>
+  
+  <script src="/assets/s-site-assets-scripts/prism.js"></script>
+  <script src="/assets/s-site-assets-scripts/prism-normalize.js"></script>
+  
+  <script src="/assets/s-site-assets-scripts/site.js"></script>
+  <script src="https://support.brightcove.com/site-assets/js/learning-paths/learning-paths.js"></script>
+  <!-- <script src="/assets/s-site-assets-scripts/site.js"></script> -->
+  <script src="/assets/s-site-assets-scripts/tabs.js"></script>
+  
+  <script src="/assets/s-site-assets-scripts/toc-new-template.js"></script>
+  
+  <script src="/assets/js/sites_nav.js"></script>
+  <script src="/assets/s-site-assets-scripts/bcls-utils.js"></script>
+  <script src="/assets/s-site-assets-scripts/local-link-fix.js"></script>
+  <script src="/assets/s-site-assets-scripts/sajari-reindex.js"></script>
+  <script src="/assets/js/feedback.js"></script>
+  
+  <script src="/assets/s-site-assets-scripts/sajari-search-foot.js"></script>
+  
+  <script translate="no">
+    feather.replace()
+  </script>
+  <!-- <script src="/assets/js/sajari-index.js"></script> -->
+  <script src="/assets/s-site-assets-scripts/in-app.js"></script>
+  <style translate="no">
+    a.sj-paginator__page-number.sj-paginator__page-number--current.css-so0ov7 {
+      background-color: lightblue;
+    }
+    div.sj-tabs__tab {
+      margin-top: 3rem;
+      margin-left: .3rem;
+      border-top-left-radius: .4rem;
+      border-top-right-radius: .4rem;
+      background-color:#e8e8e8;
+    }
+
+    div.sj-tabs__tab.sj-tabs__tab--selected {
+      border-bottom-color: crimson;
+      background-color: #f8f8f8;
+    }
+
+    p.sj-results__result__description.css-p9jvyt {
+      font-size: 1rem;
+    }
+
+    .sj-result__text.css-31l7gp h3 {
+      color: navy;
+      font-size: 1.4rem;
+    }
+    </style>
+
+  </body>
+</html> 

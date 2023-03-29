@@ -1,0 +1,170 @@
+- section: 
+  name: 'Home'
+  url: '/'
+- section: 
+  name: 'Getting Started'
+  url: '/getting-started/index.html'
+  icon: fa-regular fa-map-pin
+  description: Guides to help you get started with Audience Insights.
+  docs:
+    - name: 'Overview: Audience Insights'
+      url: '/getting-started/overview-audience-insights.html'
+    - name: 'Audience Insights Glossary'
+      url: '/getting-started/audience-insights-glossary.html'
+- section:
+  name: 'General Information'
+  url: '/general/index.html'
+  icon: fa-regular fa-circle-info
+  description: General topics relating to Audience Insights.
+  docs:
+    - name: 'Automating Smarter Campaigns with User Segments'
+      url: /general/automating-smarter-campaigns-with-user-s.html
+    - name: 'Brightcove Audience Insights and Data Security'
+      url: /general/audience-insights-data-security.html
+    - name: 'Calculating Lifetime Value in a SVoD Business'
+      url: /general/calculating-lifetime-value-in-a-svod-bus.html
+    - name: 'Content as Context for Better Segmentation'
+      url: /general/content-as-context-for-better-segmentation.html
+    - name: 'Custom Insights'
+      url: /general/introducing-custom-insights.html
+    - name: 'Enhance HubSpot Campaigns with the Audience Insights Dashboard'
+      url: /general/enhance-hubspot-campaigns-with-the-wicke.html
+    - name: 'Looking Beyond Views to Find Entertainment Value in OTT Content'
+      url: /general/looking-beyond-views-to-find-entertainme.html
+    - name: 'Measuring Content Momentum'
+      url: /general/measuring-content-momentum.html
+    - name: 'Seeing the Big Picture of Your OTT Business'
+      url: /general/seeing-the-big-picture-of-your-ott-busin.html
+    - name: 'Streamlining Workflow with Automated Subscriber Sync'
+      url: /general/streamlining-workflow-with-automated-sub.html
+    - name: 'Understanding Content through the Lens of Your Customer Attention Index'
+      url: /general/understanding-content-through-the-lens-o.html
+- section: 
+  name: 'Guides'
+  url: '/guides/index.html'
+  icon: fa-light fa-signs-post
+  description: Guides to working with each section of Audience Insights data.
+  docs:
+    - name: Customer Summary
+      url: '/guides/summary/customer-summary.html'
+    - name: Customers
+      url: '/guides/customers/current-customers.html'
+    - name: 'Conversions'
+      url: '/guides/conversions/conversions.html'
+    - name: 'Lost Customers'
+      url: '/guides/lost-customers/lost-customers.html'
+    - name: Engagement
+      url: /guides/engagement/index.html
+      docs:
+      - name: 'Engagement: Overview'
+        url: '/guides/engagement/engagement-overview.html'
+      - name: 'Engagement: Usage Trends'
+        url: '/guides/engagement/engagement-usage-trends.html'
+      - name: 'Engagement: Status Over Time'
+        url: '/guides/engagement/engagement-status-over-time.html'
+      - name: 'Engagement: Sessions Over Time'
+        url: '/guides/engagement/engagement-sessions-over-time.html'
+      - name: 'Engagement: Hours Viewed By'
+        url: '/guides/engagement/engagement-hours-viewed-by.html'
+    - name: 'Content'
+      url: '/guides/content/index.html'
+      docs:
+        - name: 'Content: Overview'
+          url: '/guides/content/content-overview.html'
+        - name: 'Content: Catalog and Explorer'
+          url: '/guides/content/content-catalog-by.html'
+        - name: 'Content: Popular Content'
+          url: '/guides/content/content-pupular-content-by.html'
+        - name: 'Content: Trial Drivers and Library Breakdown'
+          url: '/guides/content/content-trial-drivers-library.html'
+    - name: 'Distribution'
+      url: '/guides/distribution/distribution.html'
+- section:
+  name: 'Insights'
+  url: '/insights/index.html'
+  icon: fa-regular fa-chart-simple
+  description: This section provides some deep dives in to key metrics for managing your business.
+  docs:
+    - name: 'Linear Insights'
+      url: /insights/linear-insights.html
+- section:
+  name: 'Integrations'
+  url: '/integration/index.html'
+  icon: "fa-regular fa-puzzle-piece-simple"
+  description: This section contains topics about partner integrations.
+  docs:
+    - name: 'Integrations Summary'
+      url: /integration/integration-summary.html
+    - name: 'Braze'
+      url: /integration/integration_spotlight_braze.html
+    - name: 'Evergent'
+      url: /integration/integration_spotlight_evergent.html
+    - name: 'HubSpot'
+      url: /integration/integration_spotlight_hubspot.html
+    - name: 'Vimeo'
+      url: /integration/integration_spotlight_vimeo.html
+    - name: Salesforce Sales Cloud
+      url: /integration/salesforce-sales-cloud/index.html
+      docs:
+        - name: 'Overview: Salesforce Sales Cloud Integration'
+          url: /integration/salesforce-sales-cloud/overview-sfsc-integration.html
+        - name: Salesforce Connected App Setup
+          url: /integration/salesforce-sales-cloud/salesforce-connected-app-setup.html
+        - name: Salesforce Properties Setup
+          url: /integration/salesforce-sales-cloud/salesforce-properties-setup.html
+        - name: Audience Insights Salesforce Integration Setup
+          url: /integration/salesforce-sales-cloud/audience-insights-publish-integration-setup.html
+- section: 
+  name: 'Use Cases'
+  url: '/use-cases/index.html'
+  icon: 'fa-light fa-house-turret'
+  description: Learn about specific use cases for Audience Insights.
+  docs:
+    - name: "Acquisition"
+      url: '/use-cases/acquisition/index.html'
+      docs:
+        - name: 'Find Customers with Facebook'
+          url: '/use-cases/acquisition/how_to_find_more_happy_customers_with_fa.html'
+        - name: 'Find Customers with Google Ads'
+          url: '/use-cases/acquisition/how_to_find_more_happy_customers_with_go.html'
+        - name: 'Find Customers with Twitter'
+          url: '/use-cases/acquisition/how_to_find_more_happy_customers_with_tw.html'
+        - name: 'Running Better Campaigns'
+          url: '/use-cases/acquisition/running_better_campaigns_using_initial_v.html'
+    - name: "Retention"
+      url: '/use-cases/retention/index.html'
+      docs:
+        - name: 'Promoting Upgrades'
+          url: '/use-cases/retention/promoting_upgrades_to_annual_plans.html'
+        - name: 'Using Genre to Match Content'
+          url: '/use-cases/retention/using_genre_to_match_viewers_with_content.html'
+    - name: "Win-back"
+      url: '/use-cases/win-back/index.html'
+      docs:
+        - name: 'Exclusive Content Alerts'
+          url: '/use-cases/win-back/exclusive_content_alerts.html'
+        - name: 'Win-back Lost Subscribers'
+          url: '/use-cases/win-back/how_to_win_back_lost_subscribers.html'
+        - name: 'Primary Viewing Device'
+          url: '/use-cases/win-back/new_app_or_device_based_on_their_primary.html'
+        - name: 'Content Based on Viewing'
+          url: '/use-cases/win-back/new_content_based_on_past_viewing.html'
+        - name: 'Price Change Awareness'
+          url: '/use-cases/win-back/price_change_awareness_offers.html'    
+    
+- section: 
+  name: 'Support'
+  url: '/support/'
+  icon: 'fa-regular fa-comments-question-check'
+  description: Learn how to get help from Brightcove Support.
+  docs:
+    - name: 'Contact Sales'
+      url: '/support/contact-sales.html'
+    - name: 'Viewing the Brightcove System Status Page'
+      url: '/support/viewing-brightcove-system-status-page.html'
+    - name: 'Known Issues'
+      url: '/support/known-issues-studio-brightcove-player-and-apis.html'
+    - name: 'Opening a Support Case'
+      url: '/support/opening-case-with-brightcove-support.html'
+    - name: 'Reset Your Support Portal Password'
+      url: '/support/reset-support-portal-password.html'

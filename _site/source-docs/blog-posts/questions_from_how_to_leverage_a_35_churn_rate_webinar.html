@@ -1,0 +1,963 @@
+<!DOCTYPE html>
+<html lang="en"> 
+    <head>
+        <title>Questions From How to Leverage a 35% Churn Rate Webinar</title>
+        
+        <!-- Meta -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Sometimes there just isn’t enough time. In this post, we answer questions from a recent webinar we participated in with Brightcove and Hallmark Labs, How to Leverage a 35% Churn Rate.">
+        
+        <!-- Google Font -->
+        <link href="/assets/s-site-assets-stylesheets/fonts/poppins.css" rel="stylesheet">
+        <link rel="stylesheet" href="/assets/s-site-assets-stylesheets/fonts/articulat-site.css">
+        <link href="/assets/s-site-assets-stylesheets/fonts/source-code-pro.css" rel="stylesheet">
+        
+        <!-- FontAwesome JS-->
+        
+        <script src="https://kit.fontawesome.com/d67c74a882.js" crossorigin="anonymous"></script>  
+        
+        <!-- Plugins CSS -->
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.2/styles/atom-one-dark.min.css">
+        <link rel="stylesheet" href="/assets/s-site-assets-template-stylesheets/plugins/simplelightbox/simple-lightbox.min.css">
+
+        <!-- Theme CSS -->  
+        <link id="theme-style" rel="stylesheet" href="/assets/s-site-assets-template-stylesheets/css/theme.css">
+        <link rel="stylesheet" href="/assets/s-site-assets-stylesheets/prism.css">
+        <link rel="stylesheet" href="/assets/s-site-assets-template-stylesheets/custom-css/styles.css">
+
+
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-XBJC11HF8Z"></script>
+        <script translate="no">
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-XBJC11HF8Z');
+        </script>
+        <script src="/assets/s-site-assets-scripts/sixth-sense.js"></script>
+        <script src="/assets/s-site-assets-scripts/sajari-head.js"></script>
+        <script src="/assets/s-site-assets-scripts/feather.min.js"></script>
+
+    </head> 
+
+    <body class="docs-page">
+        
+
+<header class="header fixed-top">
+  <div class="branding docs-branding">
+    <div class="container-fluid position-relative py-2">
+      <div class="docs-logo-wrapper">
+        <button id="docs-sidebar-toggler" class="docs-sidebar-toggler"
+          type="button">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <div class="site-logo"><a class="navbar-brand"
+            href="https://support.brightcove.com/"
+            style="margin-left: 15px;">
+            <img class="logo-icon me-2"
+              src="/assets/s-site-assets-template-stylesheets/images/bc_logo_black_1@1x.png"
+              alt="logo" style="margin-bottom: 9px;">
+            <!-- <span class="logo-text">BRIGHTCOVE</span> -->
+          </a></div>
+      </div><!--//docs-logo-wrapper-->
+
+      <div class="docs-top-utilities d-flex justify-content-end
+        align-items-center">
+        
+        <!-- Search bar -->
+        <div id="nav-search-box" class="top-search-box d-none d-lg-flex" style="margin-right: 10px ;"></div>
+
+<select id="site_select" class="form-select select-focus" style="width:
+          20%; margin-right: 10px;" translate="no">
+          <option value="">Other Brightcove Docs</option>
+          
+          
+          <option value="https://support.brightcove.com" translate="no">Documentation Home</option>
+          
+          
+          
+          <option value="https://support.brightcove.com/" translate="no">-- VIDEO CLOUD --</option>
+          
+          
+          
+          <option value="https://studio.support.brightcove.com" translate="no">&nbsp;&nbsp;&nbsp;&nbsp;Video Cloud Studio</option>
+          
+          
+          
+          <option value="https://mstudio.support.brightcove.com" translate="no">&nbsp;&nbsp;&nbsp;&nbsp;Marketing Studio</option>
+          
+          
+          
+          <option value="https://player.support.brightcove.com" translate="no">&nbsp;&nbsp;&nbsp;&nbsp;Brightcove Player Development</option>
+          
+          
+          
+          <option value="https://apis.support.brightcove.com" translate="no">&nbsp;&nbsp;&nbsp;&nbsp;Video Cloud Platform APIs</option>
+          
+          
+          
+          <option value="https://sdks.support.brightcove.com" translate="no">&nbsp;&nbsp;&nbsp;&nbsp;Video Cloud Device SDKs</option>
+          
+          
+          
+          <option value="https://integrations.support.brightcove.com" translate="no">&nbsp;&nbsp;&nbsp;&nbsp;Integrations and CMS Connectors</option>
+          
+          
+          
+          <option value="https://general.support.brightcove.com" translate="no">&nbsp;&nbsp;&nbsp;&nbsp;Video Cloud General Information</option>
+          
+          
+          
+          <option value="https://support.brightcove.com/" translate="no">-- VIDEO ESSENTIALS --</option>
+          
+          
+          
+          <option value="https://audience-insights.support.brightcove.com" translate="no">&nbsp;&nbsp;&nbsp;&nbsp;Brightcove Audience Insights</option>
+          
+          
+          
+          <option value="https://beacon-help.support.brightcove.com" translate="no">&nbsp;&nbsp;&nbsp;&nbsp;Brightcove Beacon Studio</option>
+          
+          
+          
+          <option value="https://beacon.support.brightcove.com" translate="no">&nbsp;&nbsp;&nbsp;&nbsp;Brightcove Beacon Classic</option>
+          
+          
+          
+          <option value="https://corptv.support.brightcove.com" translate="no">&nbsp;&nbsp;&nbsp;&nbsp;CorpTV</option>
+          
+          
+          
+          <option value="https://live.support.brightcove.com" translate="no">&nbsp;&nbsp;&nbsp;&nbsp;Brightcove Live</option>
+          
+          
+          
+          <option value="https://zencoder.support.brightcove.com" translate="no">&nbsp;&nbsp;&nbsp;&nbsp;Zencoder</option>
+          
+          
+          
+          <option value="https://support.brightcove.com/" translate="no">-- VIDEO CLOUD ADD-ONS --</option>
+          
+          
+          
+          <option value="https://gallery.support.brightcove.com" translate="no">&nbsp;&nbsp;&nbsp;&nbsp;Brightcove Gallery</option>
+          
+          
+          
+          <option value="https://studio.support.brightcove.com/social/index.html" translate="no">&nbsp;&nbsp;&nbsp;&nbsp;Brightcove Social</option>
+          
+          
+          
+          <option value="https://interactivity.support.brightcove.com/index.html" translate="no">&nbsp;&nbsp;&nbsp;&nbsp;Brightcove Interactivity</option>
+          
+          
+          
+          <option value="https://ssai.support.brightcove.com" translate="no">&nbsp;&nbsp;&nbsp;&nbsp;Brightcove SSAI</option>
+          
+          
+          
+          <option value="https://campaign.support.brightcove.com" translate="no">&nbsp;&nbsp;&nbsp;&nbsp;Brightcove Campaign</option>
+          
+          
+        </select>
+
+        <select id="language_select" class="form-select select-focus" style="width: 10%;"
+          onchange="doGTranslate(this);" translate="no">
+          <!-- <option value="">Select Language</option> -->
+          <option value="en|en" translate="No">English</option>
+          <option value="en|zh-TW" translate="No">繁體中文</option>
+          <option value="en|fr" translate="No">Français</option>
+          <option value="en|de" translate="No">Deutsche</option>
+          <option value="en|ja" translate="No">日本語</option>
+          <option value="en|ko" translate="No">한국어</option>
+          <option value="en|es" translate="No">Español</option>
+        </select>
+
+        <script translate="no">
+          /* <![CDATA[ */
+          function doGTranslate(lang_pair) {if(lang_pair.value)lang_pair=lang_pair.value;if(lang_pair=='')return;var lang=lang_pair.split('|')[1];var plang=location.hostname.split('.')[0];if(plang.length !=2 && plang.toLowerCase() != 'zh-cn' && plang.toLowerCase() != 'zh-tw')plang='en';location.href=location.protocol+'//'+(lang == 'en' ? '' : lang+'.')+location.hostname.replace('www.', '').replace(RegExp('^' + plang + '\\.'), '')+location.pathname+location.search;}
+          /* ]]> */
+        </script>
+      </div>
+    </div>
+  </div>
+</header><!--//header-->
+
+<div class="docs-wrapper">
+  <div id="docs-sidebar" class="docs-sidebar" style="padding-right: 15px;">
+    <div id="nav-search-box" class="top-search-box d-lg-none p-3"></div>
+    <div class="row">
+      
+        <div id="side_nav" style="margin-left: 1em; display: inline-block; border-right: 1px solid #e5e5e6; padding-right: 1em;">
+          
+          <nav class="docs-nav sidenav" aria-label="Main">
+            <ul class="site-nav" style="list-style-type: none;">
+            
+            
+            
+            <li class="nav-item section-title"><a class="nav-link" href="/">Home</a></li>
+            
+            
+            
+            
+            <li class="nav-item section-title"><a class="nav-link" href="/getting-started/index.html"><span class="theme-icon-holder me-2">
+              <i class="fa-solid fa-plus"></i></span>&nbsp;Getting Started</a>
+              <ul role="list" class="section-items list-unstyled nav flex-column pb-3" style="display:none;">
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="/getting-started/overview-audience-insights.html">Overview: Audience Insights</a></li>
+              
+              
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="/getting-started/audience-insights-glossary.html">Audience Insights Glossary</a></li>
+              
+              
+              
+            </ul>
+            </li>
+            
+            
+            
+            <li class="nav-item section-title"><a class="nav-link" href="/general/index.html"><span class="theme-icon-holder me-2">
+              <i class="fa-solid fa-plus"></i></span>&nbsp;General Information</a>
+              <ul role="list" class="section-items list-unstyled nav flex-column pb-3" style="display:none;">
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="/general/automating-smarter-campaigns-with-user-s.html">Automating Smarter Campaigns with User Segments</a></li>
+              
+              
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="/general/audience-insights-data-security.html">Brightcove Audience Insights and Data Security</a></li>
+              
+              
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="/general/calculating-lifetime-value-in-a-svod-bus.html">Calculating Lifetime Value in a SVoD Business</a></li>
+              
+              
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="/general/content-as-context-for-better-segmentation.html">Content as Context for Better Segmentation</a></li>
+              
+              
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="/general/introducing-custom-insights.html">Custom Insights</a></li>
+              
+              
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="/general/enhance-hubspot-campaigns-with-the-wicke.html">Enhance HubSpot Campaigns with the Audience Insights Dashboard</a></li>
+              
+              
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="/general/looking-beyond-views-to-find-entertainme.html">Looking Beyond Views to Find Entertainment Value in OTT Content</a></li>
+              
+              
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="/general/measuring-content-momentum.html">Measuring Content Momentum</a></li>
+              
+              
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="/general/seeing-the-big-picture-of-your-ott-busin.html">Seeing the Big Picture of Your OTT Business</a></li>
+              
+              
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="/general/streamlining-workflow-with-automated-sub.html">Streamlining Workflow with Automated Subscriber Sync</a></li>
+              
+              
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="/general/understanding-content-through-the-lens-o.html">Understanding Content through the Lens of Your Customer Attention Index</a></li>
+              
+              
+              
+            </ul>
+            </li>
+            
+            
+            
+            <li class="nav-item section-title"><a class="nav-link" href="/guides/index.html"><span class="theme-icon-holder me-2">
+              <i class="fa-solid fa-plus"></i></span>&nbsp;Guides</a>
+              <ul role="list" class="section-items list-unstyled nav flex-column pb-3" style="display:none;">
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="/guides/summary/customer-summary.html">Customer Summary</a></li>
+              
+              
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="/guides/customers/current-customers.html">Customers</a></li>
+              
+              
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="/guides/conversions/conversions.html">Conversions</a></li>
+              
+              
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="/guides/lost-customers/lost-customers.html">Lost Customers</a></li>
+              
+              
+              
+              
+
+              <li class="nav-item subsection-title">
+                
+                <a class="nav-link" href="/guides/engagement/index.html">
+                  <span class="theme-icon-holder me-2"><i class="fa-solid fa-minus"></i></span>&nbsp;Engagement</a>
+                
+
+                <ul role="list" class="section-items list-unstyled nav flex-column pb-3" style="display:none;">
+                  
+                  
+                  
+                  <li class="nav-item"><a class="nav-link" href="/guides/engagement/engagement-overview.html">Engagement: Overview</a></li>
+                  
+                  
+                  
+                  
+                  
+                  <li class="nav-item"><a class="nav-link" href="/guides/engagement/engagement-usage-trends.html">Engagement: Usage Trends</a></li>
+                  
+                  
+                  
+                  
+                  
+                  <li class="nav-item"><a class="nav-link" href="/guides/engagement/engagement-status-over-time.html">Engagement: Status Over Time</a></li>
+                  
+                  
+                  
+                  
+                  
+                  <li class="nav-item"><a class="nav-link" href="/guides/engagement/engagement-sessions-over-time.html">Engagement: Sessions Over Time</a></li>
+                  
+                  
+                  
+                  
+                  
+                  <li class="nav-item"><a class="nav-link" href="/guides/engagement/engagement-hours-viewed-by.html">Engagement: Hours Viewed By</a></li>
+                  
+                  
+                  
+                </ul>
+              </li>
+              
+              
+              
+
+              <li class="nav-item subsection-title">
+                
+                <a class="nav-link" href="/guides/content/index.html">
+                  <span class="theme-icon-holder me-2"><i class="fa-solid fa-minus"></i></span>&nbsp;Content</a>
+                
+
+                <ul role="list" class="section-items list-unstyled nav flex-column pb-3" style="display:none;">
+                  
+                  
+                  
+                  <li class="nav-item"><a class="nav-link" href="/guides/content/content-overview.html">Content: Overview</a></li>
+                  
+                  
+                  
+                  
+                  
+                  <li class="nav-item"><a class="nav-link" href="/guides/content/content-catalog-by.html">Content: Catalog and Explorer</a></li>
+                  
+                  
+                  
+                  
+                  
+                  <li class="nav-item"><a class="nav-link" href="/guides/content/content-pupular-content-by.html">Content: Popular Content</a></li>
+                  
+                  
+                  
+                  
+                  
+                  <li class="nav-item"><a class="nav-link" href="/guides/content/content-trial-drivers-library.html">Content: Trial Drivers and Library Breakdown</a></li>
+                  
+                  
+                  
+                </ul>
+              </li>
+              
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="/guides/distribution/distribution.html">Distribution</a></li>
+              
+              
+              
+            </ul>
+            </li>
+            
+            
+            
+            <li class="nav-item section-title"><a class="nav-link" href="/insights/index.html"><span class="theme-icon-holder me-2">
+              <i class="fa-solid fa-plus"></i></span>&nbsp;Insights</a>
+              <ul role="list" class="section-items list-unstyled nav flex-column pb-3" style="display:none;">
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="/insights/linear-insights.html">Linear Insights</a></li>
+              
+              
+              
+            </ul>
+            </li>
+            
+            
+            
+            <li class="nav-item section-title"><a class="nav-link" href="/integration/index.html"><span class="theme-icon-holder me-2">
+              <i class="fa-solid fa-plus"></i></span>&nbsp;Integrations</a>
+              <ul role="list" class="section-items list-unstyled nav flex-column pb-3" style="display:none;">
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="/integration/integration-summary.html">Integrations Summary</a></li>
+              
+              
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="/integration/integration_spotlight_braze.html">Braze</a></li>
+              
+              
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="/integration/integration_spotlight_evergent.html">Evergent</a></li>
+              
+              
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="/integration/integration_spotlight_hubspot.html">HubSpot</a></li>
+              
+              
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="/integration/integration_spotlight_vimeo.html">Vimeo</a></li>
+              
+              
+              
+              
+
+              <li class="nav-item subsection-title">
+                
+                <a class="nav-link" href="/integration/salesforce-sales-cloud/index.html">
+                  <span class="theme-icon-holder me-2"><i class="fa-solid fa-minus"></i></span>&nbsp;Salesforce Sales Cloud</a>
+                
+
+                <ul role="list" class="section-items list-unstyled nav flex-column pb-3" style="display:none;">
+                  
+                  
+                  
+                  <li class="nav-item"><a class="nav-link" href="/integration/salesforce-sales-cloud/overview-sfsc-integration.html">Overview: Salesforce Sales Cloud Integration</a></li>
+                  
+                  
+                  
+                  
+                  
+                  <li class="nav-item"><a class="nav-link" href="/integration/salesforce-sales-cloud/salesforce-connected-app-setup.html">Salesforce Connected App Setup</a></li>
+                  
+                  
+                  
+                  
+                  
+                  <li class="nav-item"><a class="nav-link" href="/integration/salesforce-sales-cloud/salesforce-properties-setup.html">Salesforce Properties Setup</a></li>
+                  
+                  
+                  
+                  
+                  
+                  <li class="nav-item"><a class="nav-link" href="/integration/salesforce-sales-cloud/audience-insights-publish-integration-setup.html">Audience Insights Salesforce Integration Setup</a></li>
+                  
+                  
+                  
+                </ul>
+              </li>
+              
+              
+            </ul>
+            </li>
+            
+            
+            
+            <li class="nav-item section-title"><a class="nav-link" href="/use-cases/index.html"><span class="theme-icon-holder me-2">
+              <i class="fa-solid fa-plus"></i></span>&nbsp;Use Cases</a>
+              <ul role="list" class="section-items list-unstyled nav flex-column pb-3" style="display:none;">
+              
+              
+
+              <li class="nav-item subsection-title">
+                
+                <a class="nav-link" href="/use-cases/acquisition/index.html">
+                  <span class="theme-icon-holder me-2"><i class="fa-solid fa-minus"></i></span>&nbsp;Acquisition</a>
+                
+
+                <ul role="list" class="section-items list-unstyled nav flex-column pb-3" style="display:none;">
+                  
+                  
+                  
+                  <li class="nav-item"><a class="nav-link" href="/use-cases/acquisition/how_to_find_more_happy_customers_with_fa.html">Find Customers with Facebook</a></li>
+                  
+                  
+                  
+                  
+                  
+                  <li class="nav-item"><a class="nav-link" href="/use-cases/acquisition/how_to_find_more_happy_customers_with_go.html">Find Customers with Google Ads</a></li>
+                  
+                  
+                  
+                  
+                  
+                  <li class="nav-item"><a class="nav-link" href="/use-cases/acquisition/how_to_find_more_happy_customers_with_tw.html">Find Customers with Twitter</a></li>
+                  
+                  
+                  
+                  
+                  
+                  <li class="nav-item"><a class="nav-link" href="/use-cases/acquisition/running_better_campaigns_using_initial_v.html">Running Better Campaigns</a></li>
+                  
+                  
+                  
+                </ul>
+              </li>
+              
+              
+              
+
+              <li class="nav-item subsection-title">
+                
+                <a class="nav-link" href="/use-cases/retention/index.html">
+                  <span class="theme-icon-holder me-2"><i class="fa-solid fa-minus"></i></span>&nbsp;Retention</a>
+                
+
+                <ul role="list" class="section-items list-unstyled nav flex-column pb-3" style="display:none;">
+                  
+                  
+                  
+                  <li class="nav-item"><a class="nav-link" href="/use-cases/retention/promoting_upgrades_to_annual_plans.html">Promoting Upgrades</a></li>
+                  
+                  
+                  
+                  
+                  
+                  <li class="nav-item"><a class="nav-link" href="/use-cases/retention/using_genre_to_match_viewers_with_content.html">Using Genre to Match Content</a></li>
+                  
+                  
+                  
+                </ul>
+              </li>
+              
+              
+              
+
+              <li class="nav-item subsection-title">
+                
+                <a class="nav-link" href="/use-cases/win-back/index.html">
+                  <span class="theme-icon-holder me-2"><i class="fa-solid fa-minus"></i></span>&nbsp;Win-back</a>
+                
+
+                <ul role="list" class="section-items list-unstyled nav flex-column pb-3" style="display:none;">
+                  
+                  
+                  
+                  <li class="nav-item"><a class="nav-link" href="/use-cases/win-back/exclusive_content_alerts.html">Exclusive Content Alerts</a></li>
+                  
+                  
+                  
+                  
+                  
+                  <li class="nav-item"><a class="nav-link" href="/use-cases/win-back/how_to_win_back_lost_subscribers.html">Win-back Lost Subscribers</a></li>
+                  
+                  
+                  
+                  
+                  
+                  <li class="nav-item"><a class="nav-link" href="/use-cases/win-back/new_app_or_device_based_on_their_primary.html">Primary Viewing Device</a></li>
+                  
+                  
+                  
+                  
+                  
+                  <li class="nav-item"><a class="nav-link" href="/use-cases/win-back/new_content_based_on_past_viewing.html">Content Based on Viewing</a></li>
+                  
+                  
+                  
+                  
+                  
+                  <li class="nav-item"><a class="nav-link" href="/use-cases/win-back/price_change_awareness_offers.html">Price Change Awareness</a></li>
+                  
+                  
+                  
+                </ul>
+              </li>
+              
+              
+            </ul>
+            </li>
+            
+            
+            
+            <li class="nav-item section-title"><a class="nav-link" href="/support/"><span class="theme-icon-holder me-2">
+              <i class="fa-solid fa-plus"></i></span>&nbsp;Support</a>
+              <ul role="list" class="section-items list-unstyled nav flex-column pb-3" style="display:none;">
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="/support/contact-sales.html">Contact Sales</a></li>
+              
+              
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="/support/viewing-brightcove-system-status-page.html">Viewing the Brightcove System Status Page</a></li>
+              
+              
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="/support/known-issues-studio-brightcove-player-and-apis.html">Known Issues</a></li>
+              
+              
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="/support/opening-case-with-brightcove-support.html">Opening a Support Case</a></li>
+              
+              
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="/support/reset-support-portal-password.html">Reset Your Support Portal Password</a></li>
+              
+              
+              
+            </ul>
+            </li>
+            
+            
+          </ul>
+          </nav>
+        </div>
+      </div>
+    </div><!--//docs-sidebar-->
+  </div>
+</div>
+
+<div style="margin-top: 20px;">
+  <div class="docs-content" style="padding-bottom: 0px;">
+    <div class="container">
+      <div class="docs-overview">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            
+            <li class="breadcrumb-item"><a class="theme-link" href="/">Home</a></li>
+            
+            
+            <li class="breadcrumb-item"><a class="theme-link" href="/source-docs/">Source docs</a></li>
+            
+            
+            
+            <li class="breadcrumb-item"><a class="theme-link" href="/source-docs/blog-posts/">Blog posts</a></li>
+            
+            
+            
+            <li class="breadcrumb-item active" aria-current="page">Questions From How to Leverage a 35% Churn Rate Webinar</li>
+            
+            
+          </ol>
+        </nav>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="docs-content">
+  <div class="container">
+    <div class="docs-overview py-5">
+      
+      <div class="centered-inpage-nav" id="centered_inpage_nav">
+        <nav id="centered_toc">
+          <select id="centered_in_page_toc" class="form-select select-focus"></select>
+        </nav>
+      </div>
+      <br>
+      
+      
+<h1>Questions From How to Leverage a 35% Churn Rate Webinar</h1>
+<article class="bcls-article">
+  <summary>Sometimes there just isn’t enough time. In this post, we answer questions from a recent webinar we participated in with Brightcove and Hallmark Labs, How to Leverage a 35% Churn Rate.</summary>
+  <p>Between the lively discussion and many questions posed by the audience, we ran out of time to thoroughly address all of the questions asked. So we decided a follow-up post was in order to make sure everyone had a chance to get their question addressed and hopefully help out some of those that also have similar questions regarding churn in their subscription video services.</p></div>
+  <h2>Attendee Questions</h2>
+  <ol>
+  <li><strong>What is a reasonable level of involuntary churn, and what can you do to reduce it? </strong>
+  <p><strong>[MR]</strong> In general, we see about 30% of the overall churn related to involuntary churn. This varies by audience, customer type, payment mechanisms, etc. You can get lower involuntary churn through the app stores but since people jump in and out of apps, voluntary churn can be higher.</p>
+  <p>Involuntary churn is attackable. Some of the subtle ways you can combat this include:</p>
+  <ul>
+  <li>working with your payment processor on their dunning process</li>
+  <li>Setup in-app notifications regarding recurring payments coming up</li>
+  <li>Notifications asking subscribers to make sure their payment information is correct</li>
+  </ul>
+  <p>Having really good subscriber management and payment processing systems can keep your involuntary churn rate in the single digits.</p>
+  </li>
+  <li><strong>Are there trends that suggest how often you need to add new content?<br></strong>
+  
+  <p><strong>[HL]</strong> People are expecting to see something new on a weekly basis. Hallmark is trying to maintain a weekly release schedule. But this does present opportunities for marketing to your audience, either to prevent churn with engagement or through running win-back campaigns. Win-backs are an important tactic for fighting churn.</p>
+  </li>
+  <li><strong>What Marketing data do you combine with your churn data?<br></strong>
+  
+  <p><strong>[MR]</strong> We provide a 360º view of every subscriber that delivers a thorough understanding of actions you can take for maintaining engagement and keeping them subscribed which ultimately drives a higher lifetime value. The data typically comes from a few different sources. By combining marketing, subscriber management, app store, revenue, video metadata, and site and app analytics data, we can see what marketing sources are performing the best throughout the lifecycle versus only seeing which sources are best for acquisition and stopping there.</p>
+  <p>This chart (Fig. 1) is one example of how we integrate data from multiple sources to draw unique insights in the Audience Insights Dashboard. It gives a more complete understanding of how your marketing efforts are performing<span style="font-weight: 400;">&nbsp;and can also be pivoted to show marketing channel, primary device, and location data</span>.</p>
+  <div id="attachment_33930" style="width: 1034px" class="wp-caption alignnone"><img aria-describedby="caption-attachment-33930" class="wp-image-33930 size-large" src="//m2d8t6y5.stackpathcdn.com/wp-content/uploads/2020/06/customer-status-source-1024x258.png" alt="chart of customer status per marketing source" width="1024" height="258" srcset="//m2d8t6y5.stackpathcdn.com/wp-content/uploads/2020/06/customer-status-source-980x247.png 980w, //m2d8t6y5.stackpathcdn.com/wp-content/uploads/2020/06/customer-status-source-480x121.png 480w" sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) and (max-width: 980px) 980px, (min-width: 981px) 1024px, 100vw"><p id="caption-attachment-33930" class="wp-caption-text">Fig. 1 – Chart of Customer Status per Marketing Source</p></div>
+  <p>Additionally, the Audience Insights Dashboard has a chart called <em>CONVERSION DRILLDOWN BY SOURCE</em> which allows you the granularity of viewing your conversions at the ad/source level.</p>
+  </li>
+  <li><strong>For smaller networks, your thoughts on best practices for introducing the library of content and/or guides to navigate it? Email, social media, KB, landing pages, etc?<br></strong>
+  <p><strong>[HL]</strong></p>
+  <ul>
+  <li>Landing pages certainly help</li>
+  <li>Have some sort of a sizzle reel of the available content</li>
+  <li>Let people browse the service. If everything is behind a paywall, it looks like you’re trying to hide something. Letting them browse allows people to evaluate what they’re signing up for</li>
+  <li>Provide sample content</li>
+  <li>Just offering previews or trailers can be huge</li>
+  </ul>
+  </li>
+  <li><strong>Do you find churn rates higher with in-app purchases on a platform versus a sub directly purchasing on the channels’ own website?</strong>
+  <p><strong>[HL]</strong> In-app churn is lower than the website. That can be for a variety of reasons. You have less likely involuntary churn because people are more apt to keep their credit cards up to date with Apple, or Google, or Roku. So, right there, you’re cutting off a huge chunk of churn because the credit cards are up-to-date. It’s an easier way to join a service. On the other side, managing your service through in-app can be more difficult than it is on the web. So sometimes you might have less churn because it’s not clear how to cancel versus how we make it easy and apparent on the website. It’s not a huge difference but it is lower in-app.</p>
+  <p><strong>[MR]</strong> The other thing that relates to that is the consumption device itself. In general, what we find is that consumers watching on a big-screen experience, a Roku, an Apple TV, a Fire Stick, they tend to consume about two and a half times as much content and they churn at half the rate as those on mobile. And it’s kind of intuitive. Mobile’s a more transitory environment.</p>
+  <p>But at the same time, understanding the data is really impactful. What we recommend is, for those users that are only watching on an Android or iOS device, as you do an engagement outreach, segment those users and promote the fact that you have a Roku app or an Apple TV app, all your “big screen” experiences. What we see is multi-device usage leads to a better, longer relationship with consumers. Less churn and higher lifetime value.</p>
+  <p>That also speaks to some of the churn that comes through the app stores as well. Roku can look pretty good because everyone is watching on a big-screen experience and they’re really engaged with that content. There are some benefits to understanding that. If you don’t have those big-screen apps, find a partner and get them because they definitely lead to a better overall experience.</p>
+  </li>
+  <li><strong>How good are streaming services at combining all of that 360-degree data in general? And what are some of their operational challenges in doing so?</strong>
+  <p><strong>[MR]</strong> We do a lot of evangelism with our customers for setting up their Google Analytics and Firebase to collect the right analytics on their apps and sites. It feels like a heavy lift but investing in your metadata is something that <em>always</em> pays benefits.</p>
+  <p>Data harmonization turns out to be 70% of the effort in any data project. Unfortunately, it’s just foundational and doesn’t provide any value back to have your data harmonized, just sitting in the cloud somewhere. You have to actually go to the next step to visualize it so the data tells a story.</p>
+  <p>But even that isn’t good enough. You have to be able to take that data and have it in a format to plug it back into your marketing activities. Whether it’s for better acquisition, conversion, or engagement to save those customers and prevent them from churning. You have to think holistically how that all works. We’ve proven that investing in that data harmonization produces a better acquisition campaign or a better engagement campaign. Thinking through that full cycle of how that data is set up and it’s going to be better than the last campaign you ran last week.</p>
+  <p><strong>[HL] </strong>It can be hard because it requires a lot of effort, it requires investment in data, in a good BI team, a good analyst. It’s not something to be taken lightly. It’s not something you can just “wing it.” There’s a big challenge, especially because we have data coming from so many different sources. There are so many different tools and they don’t all tell you the same story. Google Analytics will tell you a different story on a view or what an active user is that’s different from even what we have internal. Our own internal data, things don’t match up.</p>
+  </li>
+  <li><strong>How does Brightcove Audience Insights make the churn data actionable? Is it just email outreach, or are there other mechanisms for consumer engagement?</strong>
+  <p><strong>[MR]</strong> Email is the primary mechanism our customers use for outreach to their subscribers. In-app notifications can be really effective as well. Having both of those communication mechanisms is really important to establish. But it also depends on who your audience is. If you’re running British dramas, then email may be sufficient. If your demographics skew a lot younger, maybe it’s more social outreach which adds the benefit of connecting to your fans but also prospective fans as well.</p>
+  </li>
+  <li><strong>How important are paid marketing efforts to keeping your existing subscribers engaged? ie Promoting your content to subscribers on Facebook and Instagram versus email marketing only?</strong>
+  <p><strong>[HL]</strong> It’s extremely important for both and we do both.</p>
+  <p><strong>[MR]</strong> The Audience Insights Dashboard has <a href="https://www.wicketlabs.com/about-us/partners/">direct integrations with several marketing platforms</a> like Facebook Ads and HubSpot. You can export this data and in the process filter down by the subscriber status (active, trial, lost (voluntary), lost (involuntary)), Tenure, Last Video View, and <abbr class="abbr" title="Customer Happiness Index">CHI</abbr> Score, allowing you to send messages to highly targeted audiences.</p>
+  </li>
+  </ol>
+  <section class="et_pb_module et_pb_fullwidth_header et_pb_fullwidth_header_0 et_animated et_hover_enabled et_pb_text_align_center et_pb_bg_layout_dark" data-animation-style="slideBottom" data-animation-repeat="" data-animation-duration="800ms" data-animation-delay="250ms" data-animation-intensity="10%" data-animation-starting-opacity="0%" data-animation-speed-curve="ease-out">
+  <div class="et_pb_fullwidth_header_container center">
+  <div class="header-content-container center">
+  <div class="header-content">
+  <h2 class="et_pb_module_header">Understand and Combat Video Subscription Churn</h2>
+  <span class="et_pb_fullwidth_header_subhead">Download our whitepaper to learn how you can combat SVoD churn.</span>
+  <div class="et_pb_header_content_wrapper"></div>
+  <a class="et_pb_button et_pb_more_button et_pb_button_one" href="https://www.wicketlabs.com/subscription-churn-whitepaper/" data-icon="5">Download Whitepaper</a>
+  </div>
+</article>
+
+
+<!-- <div class="col-sm-2 right-side-bar" style="display: inline-block;max-width: 20%;"> -->
+  
+  <nav class="right-side-nav" id="right_side_nav">
+    <h6 class="toc">Page Contents</h6>
+    <ul id="in_page_nav" class="list-none"></ul>
+  </nav>
+  
+<!-- </div> -->
+</div>
+</div>
+</div>
+<div class="page-content" style="background-color: rgb(1, 5, 14);">
+  <div class="container" style="width: 50%;">
+    <footer class="py-5">
+      <div class="row">
+        <div class="col-6 col-md">
+          <h5 class="h5-text">Brightcove Support</h5>
+          <ul class="list-unstyled text-small" style="color: white ;">
+            <li><a class="a-text" href="https://status.brightcove.com">System Status</a></li>
+            <li><a class="a-text" href="https://supportportal.brightcove.com">Contact Support</a></li>
+            <li><a class="a-text" href="https://support.brightcove.com/search.html">Search all documentation</a></li>
+          </ul>
+        </div>
+      
+        <div class="col-6 col-md">
+          <h5 class="h5-text">Training</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="a-text" href="https://studio.support.brightcove.com/get-started/training/online-training-courses.html">Online courses</a></li>
+            <li><a class="a-text" href="https://studio.support.brightcove.com/get-started/training/register-training.html">Register for a course</a></li>
+            <li><a class="a-text" href="https://academy.brightcove.com/">Brightcove Academy</a></li>
+          </ul>
+        </div>
+      
+        <div class="col-6 col-md">
+          <h5 class="h5-text">Brightcove</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="a-text" href="https://www.brightcove.com">Brightcove.com</a></li>
+            <li><a class="a-text" href="https://community.brightcove.com/s/">Bright Spot Community</a></li>
+            <li><a class="a-text" href="https://support.brightcove.com/product-updates.html">Product release notes</a></li>
+            <li><a class="a-text" href="https://support.brightcove.com/doc-updates.html">Documentation updates</a></li>
+          </ul>
+        </div>
+      </div>
+    
+      <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+      <p>© Brightcove Inc. All rights reserved.</p>
+      <a class="a-text" href="https://www.brightcove.com/en/legal/privacy">Privacy</a> 
+      <a class="a-text" href="https://www.brightcove.com/en/terms-and-conditions">Terms &amp; Conditions</a>
+
+      <ul class="list-unstyled d-flex">
+        <li class="ms-3"><a href="https://www.linkedin.com/company/16439"
+        title="LinkedIn" target="_blank" class="gf-social-linkedin"
+        style="margin-right: 1rem;"><i data-feather="linkedin"
+          style="color:#8E9093;height: 1.25rem;"></i></a></li>
+
+        <li class="ms-3"><a
+        href="https://twitter.com/brightcove" title="Twitter" target="_blank"
+        class="gf-social-twitter" style="margin-right: 1rem;"><i
+          data-feather="twitter" style="color:#8E9093;height: 1.25rem;"></i></a></li>
+
+        <li class="ms-3"><a
+        href="https://www.facebook.com/Brightcove" title="Facebook"
+        target="_blank" class="gf-social-facebook"><i data-feather="facebook"
+          style="color:#8E9093;height: 1.25rem;"></i></a></li>
+      </ul>
+      </div>
+    </footer>
+  </div>
+</div>
+
+
+<script translate="no">
+  var searchBox = sajari.init({
+    mode: "search-box",
+    project: "1588255093746585379", // Set this to your project.
+    collection: "brightcove-documentation", // Set this to your collection.
+    instantPipeline: "autocomplete", // Pipeline used as you type
+    inputPlaceholder: "Search", // Input element placeholder,
+    styling: {
+      components: {
+        
+        input: {
+          container: {
+          backgroundColor: 'white',
+          }
+        
+        }
+      }
+    },
+    maxSuggestions: 5, // Maximum number of suggestions to show
+      attachSearchBox: document.getElementById("nav-search-box") // DOM element to attach to
+  });
+
+  
+
+
+    searchBox("sub", "pipeline.search-sent", function (_, query) {
+    window.location = "/search.html?q=" + encodeURIComponent(query.q);
+    });
+  
+  </script>
+  
+  <!-- Javascript -->          
+  <script src="/assets/s-site-assets-template-stylesheets/plugins/popper.min.js"></script>
+  <script src="/assets/s-site-assets-template-stylesheets/plugins/bootstrap/js/bootstrap.min.js"></script>  
+
+
+  <!-- Page Specific JS -->
+  <script src="/assets/s-site-assets-template-stylesheets/plugins/smoothscroll.min.js"></script>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/highlight.min.js"></script> -->
+  <!-- <script src="/assets/s-site-assets-template-stylesheets/js/highlight-custom.js"></script>  -->
+  <script src="/assets/s-site-assets-template-stylesheets/plugins/simplelightbox/simple-lightbox.min.js"></script>      
+  <script src="/assets/s-site-assets-template-stylesheets/plugins/gumshoe/gumshoe.polyfills.min.js"></script> 
+  <script src="/assets/s-site-assets-template-stylesheets/js/docs.js"></script> 
+
+  <!-- original footer components -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+  <script src="/assets/s-site-assets-scripts/https-fix.js"></script>
+  <script src="/assets/s-site-assets-scripts/setDate.js"></script>
+  <script src="/assets/s-site-assets-scripts/selector.js"></script>
+  
+  <script src="/assets/s-site-assets-scripts/prism.js"></script>
+  <script src="/assets/s-site-assets-scripts/prism-normalize.js"></script>
+  
+  <script src="/assets/s-site-assets-scripts/site.js"></script>
+  <script src="https://support.brightcove.com/site-assets/js/learning-paths/learning-paths.js"></script>
+  <!-- <script src="/assets/s-site-assets-scripts/site.js"></script> -->
+  <script src="/assets/s-site-assets-scripts/tabs.js"></script>
+  
+  <script src="/assets/s-site-assets-scripts/toc-new-template.js"></script>
+  
+  <script src="/assets/js/sites_nav.js"></script>
+  <script src="/assets/s-site-assets-scripts/bcls-utils.js"></script>
+  <script src="/assets/s-site-assets-scripts/local-link-fix.js"></script>
+  <script src="/assets/s-site-assets-scripts/sajari-reindex.js"></script>
+  <script src="/assets/js/feedback.js"></script>
+  
+  <script src="/assets/s-site-assets-scripts/sajari-search-foot.js"></script>
+  
+  <script translate="no">
+    feather.replace()
+  </script>
+  <!-- <script src="/assets/js/sajari-index.js"></script> -->
+  <script src="/assets/s-site-assets-scripts/in-app.js"></script>
+  <style translate="no">
+    a.sj-paginator__page-number.sj-paginator__page-number--current.css-so0ov7 {
+      background-color: lightblue;
+    }
+    div.sj-tabs__tab {
+      margin-top: 3rem;
+      margin-left: .3rem;
+      border-top-left-radius: .4rem;
+      border-top-right-radius: .4rem;
+      background-color:#e8e8e8;
+    }
+
+    div.sj-tabs__tab.sj-tabs__tab--selected {
+      border-bottom-color: crimson;
+      background-color: #f8f8f8;
+    }
+
+    p.sj-results__result__description.css-p9jvyt {
+      font-size: 1rem;
+    }
+
+    .sj-result__text.css-31l7gp h3 {
+      color: navy;
+      font-size: 1.4rem;
+    }
+    </style>
+
+  </body>
+</html> 

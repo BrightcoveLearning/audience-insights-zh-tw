@@ -1,0 +1,1203 @@
+<!DOCTYPE html>
+<html lang="en"> 
+    <head>
+        <title>Audience Insights Glossary</title>
+        
+        <!-- Meta -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="A guide to important terminology for Brightcove Audience Insights.">
+        
+        <!-- Google Font -->
+        <link href="/assets/s-site-assets-stylesheets/fonts/poppins.css" rel="stylesheet">
+        <link rel="stylesheet" href="/assets/s-site-assets-stylesheets/fonts/articulat-site.css">
+        <link href="/assets/s-site-assets-stylesheets/fonts/source-code-pro.css" rel="stylesheet">
+        
+        <!-- FontAwesome JS-->
+        
+        <script src="https://kit.fontawesome.com/d67c74a882.js" crossorigin="anonymous"></script>  
+        
+        <!-- Plugins CSS -->
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.2/styles/atom-one-dark.min.css">
+        <link rel="stylesheet" href="/assets/s-site-assets-template-stylesheets/plugins/simplelightbox/simple-lightbox.min.css">
+
+        <!-- Theme CSS -->  
+        <link id="theme-style" rel="stylesheet" href="/assets/s-site-assets-template-stylesheets/css/theme.css">
+        <link rel="stylesheet" href="/assets/s-site-assets-stylesheets/prism.css">
+        <link rel="stylesheet" href="/assets/s-site-assets-template-stylesheets/custom-css/styles.css">
+
+
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-XBJC11HF8Z"></script>
+        <script translate="no">
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-XBJC11HF8Z');
+        </script>
+        <script src="/assets/s-site-assets-scripts/sixth-sense.js"></script>
+        <script src="/assets/s-site-assets-scripts/sajari-head.js"></script>
+        <script src="/assets/s-site-assets-scripts/feather.min.js"></script>
+
+    </head> 
+
+    <body class="docs-page">
+        
+
+<header class="header fixed-top">
+  <div class="branding docs-branding">
+    <div class="container-fluid position-relative py-2">
+      <div class="docs-logo-wrapper">
+        <button id="docs-sidebar-toggler" class="docs-sidebar-toggler"
+          type="button">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <div class="site-logo"><a class="navbar-brand"
+            href="https://support.brightcove.com/"
+            style="margin-left: 15px;">
+            <img class="logo-icon me-2"
+              src="/assets/s-site-assets-template-stylesheets/images/bc_logo_black_1@1x.png"
+              alt="logo" style="margin-bottom: 9px;">
+            <!-- <span class="logo-text">BRIGHTCOVE</span> -->
+          </a></div>
+      </div><!--//docs-logo-wrapper-->
+
+      <div class="docs-top-utilities d-flex justify-content-end
+        align-items-center">
+        
+        <!-- Search bar -->
+        <div id="nav-search-box" class="top-search-box d-none d-lg-flex" style="margin-right: 10px ;"></div>
+
+<select id="site_select" class="form-select select-focus" style="width:
+          20%; margin-right: 10px;" translate="no">
+          <option value="">Other Brightcove Docs</option>
+          
+          
+          <option value="https://support.brightcove.com" translate="no">Documentation Home</option>
+          
+          
+          
+          <option value="https://support.brightcove.com/" translate="no">-- VIDEO CLOUD --</option>
+          
+          
+          
+          <option value="https://studio.support.brightcove.com" translate="no">&nbsp;&nbsp;&nbsp;&nbsp;Video Cloud Studio</option>
+          
+          
+          
+          <option value="https://mstudio.support.brightcove.com" translate="no">&nbsp;&nbsp;&nbsp;&nbsp;Marketing Studio</option>
+          
+          
+          
+          <option value="https://player.support.brightcove.com" translate="no">&nbsp;&nbsp;&nbsp;&nbsp;Brightcove Player Development</option>
+          
+          
+          
+          <option value="https://apis.support.brightcove.com" translate="no">&nbsp;&nbsp;&nbsp;&nbsp;Video Cloud Platform APIs</option>
+          
+          
+          
+          <option value="https://sdks.support.brightcove.com" translate="no">&nbsp;&nbsp;&nbsp;&nbsp;Video Cloud Device SDKs</option>
+          
+          
+          
+          <option value="https://integrations.support.brightcove.com" translate="no">&nbsp;&nbsp;&nbsp;&nbsp;Integrations and CMS Connectors</option>
+          
+          
+          
+          <option value="https://general.support.brightcove.com" translate="no">&nbsp;&nbsp;&nbsp;&nbsp;Video Cloud General Information</option>
+          
+          
+          
+          <option value="https://support.brightcove.com/" translate="no">-- VIDEO ESSENTIALS --</option>
+          
+          
+          
+          <option value="https://audience-insights.support.brightcove.com" translate="no">&nbsp;&nbsp;&nbsp;&nbsp;Brightcove Audience Insights</option>
+          
+          
+          
+          <option value="https://beacon-help.support.brightcove.com" translate="no">&nbsp;&nbsp;&nbsp;&nbsp;Brightcove Beacon Studio</option>
+          
+          
+          
+          <option value="https://beacon.support.brightcove.com" translate="no">&nbsp;&nbsp;&nbsp;&nbsp;Brightcove Beacon Classic</option>
+          
+          
+          
+          <option value="https://corptv.support.brightcove.com" translate="no">&nbsp;&nbsp;&nbsp;&nbsp;CorpTV</option>
+          
+          
+          
+          <option value="https://live.support.brightcove.com" translate="no">&nbsp;&nbsp;&nbsp;&nbsp;Brightcove Live</option>
+          
+          
+          
+          <option value="https://zencoder.support.brightcove.com" translate="no">&nbsp;&nbsp;&nbsp;&nbsp;Zencoder</option>
+          
+          
+          
+          <option value="https://support.brightcove.com/" translate="no">-- VIDEO CLOUD ADD-ONS --</option>
+          
+          
+          
+          <option value="https://gallery.support.brightcove.com" translate="no">&nbsp;&nbsp;&nbsp;&nbsp;Brightcove Gallery</option>
+          
+          
+          
+          <option value="https://studio.support.brightcove.com/social/index.html" translate="no">&nbsp;&nbsp;&nbsp;&nbsp;Brightcove Social</option>
+          
+          
+          
+          <option value="https://interactivity.support.brightcove.com/index.html" translate="no">&nbsp;&nbsp;&nbsp;&nbsp;Brightcove Interactivity</option>
+          
+          
+          
+          <option value="https://ssai.support.brightcove.com" translate="no">&nbsp;&nbsp;&nbsp;&nbsp;Brightcove SSAI</option>
+          
+          
+          
+          <option value="https://campaign.support.brightcove.com" translate="no">&nbsp;&nbsp;&nbsp;&nbsp;Brightcove Campaign</option>
+          
+          
+        </select>
+
+        <select id="language_select" class="form-select select-focus" style="width: 10%;"
+          onchange="doGTranslate(this);" translate="no">
+          <!-- <option value="">Select Language</option> -->
+          <option value="en|en" translate="No">English</option>
+          <option value="en|zh-TW" translate="No">繁體中文</option>
+          <option value="en|fr" translate="No">Français</option>
+          <option value="en|de" translate="No">Deutsche</option>
+          <option value="en|ja" translate="No">日本語</option>
+          <option value="en|ko" translate="No">한국어</option>
+          <option value="en|es" translate="No">Español</option>
+        </select>
+
+        <script translate="no">
+          /* <![CDATA[ */
+          function doGTranslate(lang_pair) {if(lang_pair.value)lang_pair=lang_pair.value;if(lang_pair=='')return;var lang=lang_pair.split('|')[1];var plang=location.hostname.split('.')[0];if(plang.length !=2 && plang.toLowerCase() != 'zh-cn' && plang.toLowerCase() != 'zh-tw')plang='en';location.href=location.protocol+'//'+(lang == 'en' ? '' : lang+'.')+location.hostname.replace('www.', '').replace(RegExp('^' + plang + '\\.'), '')+location.pathname+location.search;}
+          /* ]]> */
+        </script>
+      </div>
+    </div>
+  </div>
+</header><!--//header-->
+
+<div class="docs-wrapper">
+  <div id="docs-sidebar" class="docs-sidebar" style="padding-right: 15px;">
+    <div id="nav-search-box" class="top-search-box d-lg-none p-3"></div>
+    <div class="row">
+      
+        <div id="side_nav" style="margin-left: 1em; display: inline-block; border-right: 1px solid #e5e5e6; padding-right: 1em;">
+          
+          <nav class="docs-nav sidenav" aria-label="Main">
+            <ul class="site-nav" style="list-style-type: none;">
+            
+            
+            
+            <li class="nav-item section-title"><a class="nav-link" href="/">Home</a></li>
+            
+            
+            
+            
+            <li class="nav-item section-title"><a class="nav-link" href="/getting-started/index.html"><span class="theme-icon-holder me-2">
+              <i class="fa-solid fa-plus"></i></span>&nbsp;Getting Started</a>
+              <ul role="list" class="section-items list-unstyled nav flex-column pb-3" style="display:none;">
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="/getting-started/overview-audience-insights.html">Overview: Audience Insights</a></li>
+              
+              
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="/getting-started/audience-insights-glossary.html" aria-current="page">Audience Insights Glossary</a></li>
+              
+              
+              
+            </ul>
+            </li>
+            
+            
+            
+            <li class="nav-item section-title"><a class="nav-link" href="/general/index.html"><span class="theme-icon-holder me-2">
+              <i class="fa-solid fa-plus"></i></span>&nbsp;General Information</a>
+              <ul role="list" class="section-items list-unstyled nav flex-column pb-3" style="display:none;">
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="/general/automating-smarter-campaigns-with-user-s.html">Automating Smarter Campaigns with User Segments</a></li>
+              
+              
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="/general/audience-insights-data-security.html">Brightcove Audience Insights and Data Security</a></li>
+              
+              
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="/general/calculating-lifetime-value-in-a-svod-bus.html">Calculating Lifetime Value in a SVoD Business</a></li>
+              
+              
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="/general/content-as-context-for-better-segmentation.html">Content as Context for Better Segmentation</a></li>
+              
+              
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="/general/introducing-custom-insights.html">Custom Insights</a></li>
+              
+              
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="/general/enhance-hubspot-campaigns-with-the-wicke.html">Enhance HubSpot Campaigns with the Audience Insights Dashboard</a></li>
+              
+              
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="/general/looking-beyond-views-to-find-entertainme.html">Looking Beyond Views to Find Entertainment Value in OTT Content</a></li>
+              
+              
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="/general/measuring-content-momentum.html">Measuring Content Momentum</a></li>
+              
+              
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="/general/seeing-the-big-picture-of-your-ott-busin.html">Seeing the Big Picture of Your OTT Business</a></li>
+              
+              
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="/general/streamlining-workflow-with-automated-sub.html">Streamlining Workflow with Automated Subscriber Sync</a></li>
+              
+              
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="/general/understanding-content-through-the-lens-o.html">Understanding Content through the Lens of Your Customer Attention Index</a></li>
+              
+              
+              
+            </ul>
+            </li>
+            
+            
+            
+            <li class="nav-item section-title"><a class="nav-link" href="/guides/index.html"><span class="theme-icon-holder me-2">
+              <i class="fa-solid fa-plus"></i></span>&nbsp;Guides</a>
+              <ul role="list" class="section-items list-unstyled nav flex-column pb-3" style="display:none;">
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="/guides/summary/customer-summary.html">Customer Summary</a></li>
+              
+              
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="/guides/customers/current-customers.html">Customers</a></li>
+              
+              
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="/guides/conversions/conversions.html">Conversions</a></li>
+              
+              
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="/guides/lost-customers/lost-customers.html">Lost Customers</a></li>
+              
+              
+              
+              
+
+              <li class="nav-item subsection-title">
+                
+                <a class="nav-link" href="/guides/engagement/index.html">
+                  <span class="theme-icon-holder me-2"><i class="fa-solid fa-minus"></i></span>&nbsp;Engagement</a>
+                
+
+                <ul role="list" class="section-items list-unstyled nav flex-column pb-3" style="display:none;">
+                  
+                  
+                  
+                  <li class="nav-item"><a class="nav-link" href="/guides/engagement/engagement-overview.html">Engagement: Overview</a></li>
+                  
+                  
+                  
+                  
+                  
+                  <li class="nav-item"><a class="nav-link" href="/guides/engagement/engagement-usage-trends.html">Engagement: Usage Trends</a></li>
+                  
+                  
+                  
+                  
+                  
+                  <li class="nav-item"><a class="nav-link" href="/guides/engagement/engagement-status-over-time.html">Engagement: Status Over Time</a></li>
+                  
+                  
+                  
+                  
+                  
+                  <li class="nav-item"><a class="nav-link" href="/guides/engagement/engagement-sessions-over-time.html">Engagement: Sessions Over Time</a></li>
+                  
+                  
+                  
+                  
+                  
+                  <li class="nav-item"><a class="nav-link" href="/guides/engagement/engagement-hours-viewed-by.html">Engagement: Hours Viewed By</a></li>
+                  
+                  
+                  
+                </ul>
+              </li>
+              
+              
+              
+
+              <li class="nav-item subsection-title">
+                
+                <a class="nav-link" href="/guides/content/index.html">
+                  <span class="theme-icon-holder me-2"><i class="fa-solid fa-minus"></i></span>&nbsp;Content</a>
+                
+
+                <ul role="list" class="section-items list-unstyled nav flex-column pb-3" style="display:none;">
+                  
+                  
+                  
+                  <li class="nav-item"><a class="nav-link" href="/guides/content/content-overview.html">Content: Overview</a></li>
+                  
+                  
+                  
+                  
+                  
+                  <li class="nav-item"><a class="nav-link" href="/guides/content/content-catalog-by.html">Content: Catalog and Explorer</a></li>
+                  
+                  
+                  
+                  
+                  
+                  <li class="nav-item"><a class="nav-link" href="/guides/content/content-pupular-content-by.html">Content: Popular Content</a></li>
+                  
+                  
+                  
+                  
+                  
+                  <li class="nav-item"><a class="nav-link" href="/guides/content/content-trial-drivers-library.html">Content: Trial Drivers and Library Breakdown</a></li>
+                  
+                  
+                  
+                </ul>
+              </li>
+              
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="/guides/distribution/distribution.html">Distribution</a></li>
+              
+              
+              
+            </ul>
+            </li>
+            
+            
+            
+            <li class="nav-item section-title"><a class="nav-link" href="/insights/index.html"><span class="theme-icon-holder me-2">
+              <i class="fa-solid fa-plus"></i></span>&nbsp;Insights</a>
+              <ul role="list" class="section-items list-unstyled nav flex-column pb-3" style="display:none;">
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="/insights/linear-insights.html">Linear Insights</a></li>
+              
+              
+              
+            </ul>
+            </li>
+            
+            
+            
+            <li class="nav-item section-title"><a class="nav-link" href="/integration/index.html"><span class="theme-icon-holder me-2">
+              <i class="fa-solid fa-plus"></i></span>&nbsp;Integrations</a>
+              <ul role="list" class="section-items list-unstyled nav flex-column pb-3" style="display:none;">
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="/integration/integration-summary.html">Integrations Summary</a></li>
+              
+              
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="/integration/integration_spotlight_braze.html">Braze</a></li>
+              
+              
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="/integration/integration_spotlight_evergent.html">Evergent</a></li>
+              
+              
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="/integration/integration_spotlight_hubspot.html">HubSpot</a></li>
+              
+              
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="/integration/integration_spotlight_vimeo.html">Vimeo</a></li>
+              
+              
+              
+              
+
+              <li class="nav-item subsection-title">
+                
+                <a class="nav-link" href="/integration/salesforce-sales-cloud/index.html">
+                  <span class="theme-icon-holder me-2"><i class="fa-solid fa-minus"></i></span>&nbsp;Salesforce Sales Cloud</a>
+                
+
+                <ul role="list" class="section-items list-unstyled nav flex-column pb-3" style="display:none;">
+                  
+                  
+                  
+                  <li class="nav-item"><a class="nav-link" href="/integration/salesforce-sales-cloud/overview-sfsc-integration.html">Overview: Salesforce Sales Cloud Integration</a></li>
+                  
+                  
+                  
+                  
+                  
+                  <li class="nav-item"><a class="nav-link" href="/integration/salesforce-sales-cloud/salesforce-connected-app-setup.html">Salesforce Connected App Setup</a></li>
+                  
+                  
+                  
+                  
+                  
+                  <li class="nav-item"><a class="nav-link" href="/integration/salesforce-sales-cloud/salesforce-properties-setup.html">Salesforce Properties Setup</a></li>
+                  
+                  
+                  
+                  
+                  
+                  <li class="nav-item"><a class="nav-link" href="/integration/salesforce-sales-cloud/audience-insights-publish-integration-setup.html">Audience Insights Salesforce Integration Setup</a></li>
+                  
+                  
+                  
+                </ul>
+              </li>
+              
+              
+            </ul>
+            </li>
+            
+            
+            
+            <li class="nav-item section-title"><a class="nav-link" href="/use-cases/index.html"><span class="theme-icon-holder me-2">
+              <i class="fa-solid fa-plus"></i></span>&nbsp;Use Cases</a>
+              <ul role="list" class="section-items list-unstyled nav flex-column pb-3" style="display:none;">
+              
+              
+
+              <li class="nav-item subsection-title">
+                
+                <a class="nav-link" href="/use-cases/acquisition/index.html">
+                  <span class="theme-icon-holder me-2"><i class="fa-solid fa-minus"></i></span>&nbsp;Acquisition</a>
+                
+
+                <ul role="list" class="section-items list-unstyled nav flex-column pb-3" style="display:none;">
+                  
+                  
+                  
+                  <li class="nav-item"><a class="nav-link" href="/use-cases/acquisition/how_to_find_more_happy_customers_with_fa.html">Find Customers with Facebook</a></li>
+                  
+                  
+                  
+                  
+                  
+                  <li class="nav-item"><a class="nav-link" href="/use-cases/acquisition/how_to_find_more_happy_customers_with_go.html">Find Customers with Google Ads</a></li>
+                  
+                  
+                  
+                  
+                  
+                  <li class="nav-item"><a class="nav-link" href="/use-cases/acquisition/how_to_find_more_happy_customers_with_tw.html">Find Customers with Twitter</a></li>
+                  
+                  
+                  
+                  
+                  
+                  <li class="nav-item"><a class="nav-link" href="/use-cases/acquisition/running_better_campaigns_using_initial_v.html">Running Better Campaigns</a></li>
+                  
+                  
+                  
+                </ul>
+              </li>
+              
+              
+              
+
+              <li class="nav-item subsection-title">
+                
+                <a class="nav-link" href="/use-cases/retention/index.html">
+                  <span class="theme-icon-holder me-2"><i class="fa-solid fa-minus"></i></span>&nbsp;Retention</a>
+                
+
+                <ul role="list" class="section-items list-unstyled nav flex-column pb-3" style="display:none;">
+                  
+                  
+                  
+                  <li class="nav-item"><a class="nav-link" href="/use-cases/retention/promoting_upgrades_to_annual_plans.html">Promoting Upgrades</a></li>
+                  
+                  
+                  
+                  
+                  
+                  <li class="nav-item"><a class="nav-link" href="/use-cases/retention/using_genre_to_match_viewers_with_content.html">Using Genre to Match Content</a></li>
+                  
+                  
+                  
+                </ul>
+              </li>
+              
+              
+              
+
+              <li class="nav-item subsection-title">
+                
+                <a class="nav-link" href="/use-cases/win-back/index.html">
+                  <span class="theme-icon-holder me-2"><i class="fa-solid fa-minus"></i></span>&nbsp;Win-back</a>
+                
+
+                <ul role="list" class="section-items list-unstyled nav flex-column pb-3" style="display:none;">
+                  
+                  
+                  
+                  <li class="nav-item"><a class="nav-link" href="/use-cases/win-back/exclusive_content_alerts.html">Exclusive Content Alerts</a></li>
+                  
+                  
+                  
+                  
+                  
+                  <li class="nav-item"><a class="nav-link" href="/use-cases/win-back/how_to_win_back_lost_subscribers.html">Win-back Lost Subscribers</a></li>
+                  
+                  
+                  
+                  
+                  
+                  <li class="nav-item"><a class="nav-link" href="/use-cases/win-back/new_app_or_device_based_on_their_primary.html">Primary Viewing Device</a></li>
+                  
+                  
+                  
+                  
+                  
+                  <li class="nav-item"><a class="nav-link" href="/use-cases/win-back/new_content_based_on_past_viewing.html">Content Based on Viewing</a></li>
+                  
+                  
+                  
+                  
+                  
+                  <li class="nav-item"><a class="nav-link" href="/use-cases/win-back/price_change_awareness_offers.html">Price Change Awareness</a></li>
+                  
+                  
+                  
+                </ul>
+              </li>
+              
+              
+            </ul>
+            </li>
+            
+            
+            
+            <li class="nav-item section-title"><a class="nav-link" href="/support/"><span class="theme-icon-holder me-2">
+              <i class="fa-solid fa-plus"></i></span>&nbsp;Support</a>
+              <ul role="list" class="section-items list-unstyled nav flex-column pb-3" style="display:none;">
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="/support/contact-sales.html">Contact Sales</a></li>
+              
+              
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="/support/viewing-brightcove-system-status-page.html">Viewing the Brightcove System Status Page</a></li>
+              
+              
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="/support/known-issues-studio-brightcove-player-and-apis.html">Known Issues</a></li>
+              
+              
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="/support/opening-case-with-brightcove-support.html">Opening a Support Case</a></li>
+              
+              
+              
+              
+              
+              <li class="nav-item"><a class="nav-link" href="/support/reset-support-portal-password.html">Reset Your Support Portal Password</a></li>
+              
+              
+              
+            </ul>
+            </li>
+            
+            
+          </ul>
+          </nav>
+        </div>
+      </div>
+    </div><!--//docs-sidebar-->
+  </div>
+</div>
+
+<div style="margin-top: 20px;">
+  <div class="docs-content" style="padding-bottom: 0px;">
+    <div class="container">
+      <div class="docs-overview">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            
+            <li class="breadcrumb-item"><a class="theme-link" href="/">Home</a></li>
+            
+            
+            <li class="breadcrumb-item"><a class="theme-link" href="/getting-started/">Getting started</a></li>
+            
+            
+            
+            <li class="breadcrumb-item active" aria-current="page">Audience Insights Glossary</li>
+            
+            
+          </ol>
+        </nav>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="docs-content">
+  <div class="container">
+    <div class="docs-overview py-5">
+      
+      <div class="centered-inpage-nav" id="centered_inpage_nav">
+        <nav id="centered_toc">
+          <select id="centered_in_page_toc" class="form-select select-focus"></select>
+        </nav>
+      </div>
+      <br>
+      
+      
+<article class="bcls-article">
+  <h1>Audience Insights Glossary</h1>
+  <summary>A guide to important terminology for Brightcove Audience Insights.</summary>
+  <p>
+    <style type="text/css">
+dt {font-weight: bold;}
+dd { padding-bottom: 10px; }
+</style>
+  </p>
+  <p>| <a href="#A">-A-</a> | <a href="#B">-B-</a> | <a href="#C">-C-</a> | <a href="#D">-D-</a> | <a href="#E">-E-</a> | <a href="#F">-F-</a> | <a href="#G">-G-</a> | <a href="#H">-H-</a> | <a href="#I">-I-</a> | <a href="#J">-J-</a> | <a href="#K">-K-</a> | <a href="#L">-L-</a> | <a href="#M">-M-</a> | <a href="#N">-N-</a> | <a href="#O">-O-</a> | <a href="#P">-P-</a> | <a href="#Q">-Q-</a> | <a href="#R">-R-</a> | <a href="#S">-S-</a> | <a href="#T">-T-</a> | <a href="#U">-U-</a> | <a href="#V">-V-</a> | <a href="#W">-W-</a> | <a href="#X">-X-</a> | <a href="#Y">-Y-</a> | <a href="#Z">-Z-</a> |</p>
+  <section class="bcls-section">
+    <h2 id="A">--A--</h2>
+    <dl>
+      <dt id="ARPU">ARPU</dt>
+      <dd>Average revenue per unit (ARPU) is an indicator of profitability based on the amount of money generated from each user.</dd>
+      <dt id="Attention_Index">Attention Index</dt>
+      <dd>
+        <p>Percentage of viewers who finished at least 75% of the content minus the percentage of viewers who watched at least 1 minute but abandoned watching.</p>
+        <ul>
+          <li>A value of <strong>-100</strong> means that every viewer abandoned while viewing less than 10% of the content</li>
+          <li>A value of <strong>100</strong> means that every viewer every viewer finished watching at least 3 quartiles (75%) of the content</li>
+        </ul> 
+      </dd>
+      <dt id="At_Risk_Customers">At-Risk Customers</dt>
+      <dd>Customers who have used the service but have gone some time without a view. Their status changes the longer they go without a view.</dd>
+      <dt id="Avg_Attention_Index">Avg Attention Index</dt>
+      <dd>On a scale from -100 to 100, this index compares the number dissatisfied viewers (watch more than 1 minute but less than 10% of video) with the number who watch at least 75% of video.</dd>
+      <dt id="Avg_Completion">Avg Completion</dt>
+      <dd>Percentage of the video watched by a user.</dd>
+      <dt id="Average_Conversions_Per_Day">Average Conversions Per Day</dt>
+      <dd>Average number of viewers converted to paid subscriptions per day for the last 30 days.</dd>
+      <dt id="Avg_New_Trials">Avg New Trials</dt>
+      <dd>Percentage of new trials compared to the total number of customers.</dd>
+      <dt id="Avg_New_Trials_Per_Day">Avg New Trials Per Day</dt>
+      <dd>Average new trial sign-ups per day for the last 30 days.</dd>
+      <dt id=">Average_Revenue_Per_User">Average Revenue Per User</dt>
+      <dd>Subscription revenue / average number of subscribers for a given timeframe. </dd>
+    </dl>
+  </section>
+  <section class="bcls-section">
+    <h2 id="B">--B--</h2>
+    <dl>
+      <dt id="Bingers">Bingers</dt>
+      <dd>Viewers who watch at least 3 episodes of content on the same calendar day. This metric is calculated over the selected date range.</dd>
+    </dl>
+  </section>
+  <section class="bcls-section">
+    <h2 id="C">--C--</h2>
+    <dl>
+      <dt id="CLV_CAC_ratio">CLV/CAC ratio</dt>
+      <dd>This is a measure of subscriber return on investment calculated by dividing Customer Lifetime Value (CLV) by Customer Acquisition Cost (CAC).</dd>
+      <dt id="Conversions">Conversions</dt>
+      <dd>
+        <p>The number of customers who have signed up for a paid subscription.</p>
+        <ul>
+          <li><strong>Direct Conversion</strong> - a user who signs up for a paid subscription without having a trial period</li>
+          <li><strong>Gifts</strong> - Tracks the number of gift redemptions offered for signing up a friend or some other promotion</li>
+          <li><strong>Reconnect Conversion</strong> - a user who has canceled their subscription, either voluntarily or involuntarily, and then resubscribed. Brightcove tracks data 3 years back.</li>
+        </ul>
+      </dd>
+      <dt id="Conversion_Breakdown">Conversion Breakdown</dt>
+      <dd>
+        <p>Breakdown of viewers who converted to a paid subscription.</p>
+      </dd>
+      <dt id="Customer_Acquisition_Cost">Customer Acquisition Cost (CAC)</dt>
+      <dd>The cost of acquiring a single customer. This can include product, labor, marketing, and other costs. (Sales & marketing expenses / gross customer additions)</dd>
+      <dt id="Customer_Count">Customer Count</dt>
+      <dd>The net effect of conversions and cancellations on the total number of subscribers for a given time period. </dd>
+      <dt id="Customer_Lifetime_Value">Customer Lifetime Value (CLV)</dt>
+      <dd>The lifetime value of a new subscription based on the survival rates of subscriptions over the past year.</dd>
+    </dl>
+  </section>
+  <section class="bcls-section">
+    <h2 id="D">--D--</h2>
+    <dl>
+      <dt id="Distribution">Distribution</dt>
+      <dd>
+        <p>Third-party stores where your content is located.</p>
+        <ul>
+          <li><strong>Managed</strong> - The store is running the subscription but you are curating the content. The store handles payments.</li>
+          <li><strong>Unmanaged</strong> - The store monetizes your content, but you handle the payments.</li>
+        </ul>
+        <aside class="bcls-aside bcls-aside--information">The Distribution section is a paid add-on.</aside>
+      </dd>
+    </dl>
+  </section>
+  <section class="bcls-section">
+    <h2 id="E">--E--</h2>
+    <dl>
+      <dt id="Engagement_Status">Engagement Status</dt>
+      <dd>
+        <p>How engaged a user is by tracking video views.</p>
+        <ul>
+          <li><strong>New</strong> - Users with a view in the last week, but none in the last year</li>
+          <li><strong>Engaged</strong> - Users with multiple views in the last month; views may not have gaps longer than 28 days from previous views</li>
+          <li><strong>Recent</strong> - Users with no views in the last week, but at least 1 view in the prior 3 weeks</li>
+          <li><strong>Idle</strong> - Users with no views in the last 4 weeks, but at least 1 view in the prior 8 weeks</li>
+          <li><strong>Re-engaged</strong> - Users with a view in the last week, but no views in the prior 4 weeks</li>
+          <li><strong>Inactive</strong> - Users with no views in the last 12 weeks, but at least 1 view in the last year</li>
+          <li><strong>Dormant</strong> - Users with no views in the last year</li>
+        </ul>
+
+      </dd>
+    </dl>
+  </section>
+  <section class="bcls-section">
+    <h2 id="F">--F--</h2>
+    <dl>
+      <dt id="Fans">Fans</dt>
+      <dd>Users that have viewed 3 or more episodes of content within the selected date range.</dd>
+      <dt id="First_Watched">First Watched</dt>
+      <dd>Assets that customers have watched as their first piece of content.</dd>
+      <dt id="Free_Trial_Conversion_Percent">Free Trial Conversion Percent</dt>
+      <dd>Average number of viewers with free trials who converted to a paid subscription in the last 30 days.</dd>
+    </dl>
+  </section>
+  <section class="bcls-section">
+    <h2 id="G">--G--</h2>
+    <dl>
+      <dt id="">&nbsp;</dt>
+      <dd>&nbsp;</dd>
+    </dl>
+  </section>
+  <section class="bcls-section">
+    <h2 id="H">--H--</h2>
+    <dl>
+      <dt id="">&nbsp;</dt>
+      <dd>&nbsp;</dd>
+    </dl>
+  </section>
+  <section class="bcls-section">
+    <h2 id="I">--I--</h2>
+    <dl>
+      <dt id="">&nbsp;</dt>
+      <dd>&nbsp;</dd>
+    </dl>
+  </section>
+  <section class="bcls-section">
+    <h2 id="J">--J--</h2>
+    <dl>
+      <dt id="">&nbsp;</dt>
+      <dd>&nbsp;</dd>
+    </dl>
+  </section>
+  <section class="bcls-section">
+    <h2 id="K">--K--</h2>
+    <dl>
+      <dt id="">&nbsp;</dt>
+      <dd>&nbsp;</dd>
+    </dl>
+  </section>
+  <section class="bcls-section">
+    <h2 id="L">--L--</h2>
+    <dl>
+      <dt id="Library_Viewed">Library Viewed</dt>
+      <dd>The percenage of titles in your asset library with at least 1 view in last month.</dd>
+      <dt id="Lifetime_Value">Lifetime Value (LTV)</dt>
+      <dd>Lifetime value (LTV) estimates the amount of revenue a customer represents to a business over the life of the relationship. This is helpful for determining the cost efficiency of acquiring new customers and supporting them over time.</dd>
+      <dt id="Lost_Trials_Percent">Lost Trials Percent</dt>
+      <dd>The percentage of trial users that have not converted to subscribers over the past 30 days.</dd>
+      <dt id="Lost_Viewers">Lost Viewers</dt>
+      <dd>The number of users who watched content and churned within the current date range.</dd>
+    </dl>
+  </section>
+  <section class="bcls-section">
+    <h2 id="M">--M--</h2>
+    <dl>
+      <dt id="">&nbsp;</dt>
+      <dd>&nbsp;</dd>
+    </dl>
+  </section>
+  <section class="bcls-section">
+    <h2 id="N">--N--</h2>
+    <dl>
+      <dt id="">&nbsp;</dt>
+      <dd>&nbsp;</dd>
+    </dl>
+  </section>
+  <section class="bcls-section">
+    <h2 id="O">--O--</h2>
+    <dl>
+      <dt id="">&nbsp;</dt>
+      <dd>&nbsp;</dd>
+    </dl>
+  </section>
+  <section class="bcls-section">
+    <h2 id="P">--P--</h2>
+    <dl>
+      <dt id="Paid_Churn_Percent">Paid Churn Percent</dt>
+      <dd>The percentage of the subscriber base that has cancelled over the past 30 days.</dd>
+      <dt id="Percent_Active_Bingers">Percent Active Bingers</dt>
+      <dd>Bingers are viewers who watch at least 3 episodes of a series on the same calendar day. This metric is calculated over the last 30 days.</dd>
+      <dt id="Percent_Active_Subs">Percent Active Subs</dt>
+      <dd>Percentage of your paid subscriptions which are active.  Active users are defined as viewers who are signed in.</dd>
+      <dt id="Percent_Libary_Viewed">Percent Library Viewed</dt>
+      <dd>The percentage of content library with titles over 5 minutes long that have at least 1 view in the past 30 days</dd>
+      <dt id="Percent_Stalled_Trialists">Percent Stalled Trialists</dt>
+      <dd>The percentage of trialists who had no video views in either the last 7 days or half their trial length, whichever is shorter.</dd>
+      <dt id="Percent_Stalled_Users">Percent Stalled Users</dt>
+      <dd>The percentage of users who had no video views in the past 30 days.</dd>
+      <dt id="Percent_Viewers_Watching_New_Content">Percent Viewers Watching New Content</dt>
+      <dd>Viewers who watched at least 1 piece of new content in the last 30 days. New content is defined as a piece of content that was viewed 14 days after its release.</dd>
+      <dt id="Projections">Projections</dt>
+      <dd>Projections are a linear regression analysis based on customer counts over the last 12 weeks. Up to 3 months of predictive data is available.</dd>
+    </dl>
+  </section>
+  <section class="bcls-section">
+    <h2 id="Q">--Q--</h2>
+    <dl>
+      <dt id="Quickets">Quickets</dt>
+      <dd>
+        <p>A customer sandbox to build your own insights and data. This links to <a href="https://aws.amazon.com/quicksight/">Amazon Quicksight</a>.</p>
+        <aside class="bcls-aside bcls-aside--information">The Quickets section is a paid add-on.</aside>
+      </dd>
+    </dl>
+  </section>
+  <section class="bcls-section">
+    <h2 id="R">--R--</h2>
+    <dl>
+      <dt id="Reconnect">Reconnect</dt>
+      <dd>A viewer who canceled a subscription and then re-subscribed.</dd>
+      <dt id="Retention_Rate">Retention Rate</dt>
+      <dd>Retention Rate uses observed churn for customers who joined the service in the last 13 months. This ensures that the retention rate is based on your service as it exists recently and is long enough to capture annual renewals and churn.</dd>
+      <dt id="Revenue_Retained">Revenue Retained</dt>
+      <dd>Percentage of revenue retained from existing customers including expansion, downgrades, and cancellations.</dd>
+    </dl>
+  </section>
+  <section class="bcls-section">
+    <h2 id="S">--S--</h2>
+    <dl>
+      <dt id="Scheduled_Cancellations">Scheduled Cancellations</dt>
+      <dd>Customers who have marked their subscription to expire at the end of their paid term. This upcoming voluntary churn is based on the last day they can use the service.</dd>
+      <dt id="Service_View_Share">Service View Share</dt>
+      <dd>This content's percent of video views relative to the total service veiws.</dd>
+      <dt id="Smart_Views">Smart Views</dt>
+      <dd>
+        <p>Smart views allow you to find content with specific characteristics.</p>
+        <ul>
+          <li><strong>Content Contribution</strong> - Find content with the highest contribution to your overall service based on net share and ratings</li>
+          <li><strong>Recent Arrivals</strong> - Find content released in the past month, sorted by highest average audience per day</li>
+          <li><strong>Steady Performers</strong> - Find content released more than a month ago, sorted by hightest average audience per day</li>
+          <li><strong>False Starts</strong> - Find content with a low Attention Index and high audience size</li>
+          <li><strong>Leaving Soon</strong> - Find content expiring in the next month, sorted by hightest average audience per day</li>
+        </ul>
+      </dd>
+      <dt id="Sort_By_Presets">Sort By Presets</dt>
+      <dd>
+        <p>Sort connected content using helpful presets:</p>
+        <ul>
+          <li><strong>Popular Content</strong> - Find content with a high Attention Index and large shared audience</li>
+          <li><strong>Hidden Gems</strong> - Find entertaining content that currently has a small audience </li>
+          <li><strong>Promotable</strong> - Find entertaining content with a large, non-overlapping audience</li>
+          <li><strong>Dynamic Duo</strong> - Find connected content with a higher shared Attention Index than its overall Attention Index</li>
+        </ul>
+
+      </dd>
+      <dt id="Survival_Curve">Survival Curve</dt>
+      <dd>Survival Curve is derived from the Retention Rate and projects the retention for tenures up to 1000 days (143 weeks) for use in projecting subscription lifetime value. Outsized differences in the Survival and Retention lines indicate irregularities or notable events in customer churn.</dd>
+    </dl>
+  </section>
+  <section class="bcls-section">
+    <h2 id="T">--T--</h2>
+    <dl>
+      <dt id="Top_Titles">Top Titles</dt>
+      <dd>Content titles are ranked by the size of the viewer audience.</dd>
+      <dt id="Trial_Acquisition_Cost">Trial Acquisition Cost</dt>
+      <dd>The cost associated with trials in relation to the number of trials added over a period of time.</dd>
+    </dl>
+  </section>
+  <section class="bcls-section">
+    <h2 id="U">--U--</h2>
+    <dl>
+      <dt id="">&nbsp;</dt>
+      <dd>&nbsp;</dd>
+    </dl>
+  </section>
+  <section class="bcls-section">
+    <h2 id="V">--V--</h2>
+    <dl>
+      <dt id="Video_Views">Video Views</dt>
+      <dd>Number of times a video started playing, recorded when the stream is started (does not include rewind or replay) - this is not a measure of individual viewers.</dd>
+    </dl>
+  </section>
+  <section class="bcls-section">
+    <h2 id="W">--W--</h2>
+    <dl>
+      <dt id="WAU_MAU_ratio">WAU/MAU ratio</dt>
+      <dd>Weekly Active Users (WAU) as a percentage of Monthly Active Users (MAU). If you have registered users or subscribers, active users are defined as viewers who are signed in; otherwise, they are users who have watched at least one video during the period.</dd>
+    </dl>
+  </section>
+  <section class="bcls-section">
+    <h2 id="X">--X--</h2>
+    <dl>
+      <dt id="">&nbsp;</dt>
+      <dd>&nbsp;</dd>
+    </dl>
+  </section>
+  <section class="bcls-section">
+    <h2 id="Y">--Y--</h2>
+    <dl>
+      <dt id="">&nbsp;</dt>
+      <dd>&nbsp;</dd>
+    </dl>
+  </section>
+  <section class="bcls-section">
+    <h2 id="Z">--Z--</h2>
+    <dl>
+      <dt id="">&nbsp;</dt>
+      <dd>&nbsp;</dd>
+    </dl>
+  </section>
+</article>
+
+<!-- <div class="col-sm-2 right-side-bar" style="display: inline-block;max-width: 20%;"> -->
+  
+  <nav class="right-side-nav" id="right_side_nav">
+    <h6 class="toc">Page Contents</h6>
+    <ul id="in_page_nav" class="list-none"></ul>
+  </nav>
+  
+<!-- </div> -->
+</div>
+</div>
+</div>
+<div class="page-content" style="background-color: rgb(1, 5, 14);">
+  <div class="container" style="width: 50%;">
+    <footer class="py-5">
+      <div class="row">
+        <div class="col-6 col-md">
+          <h5 class="h5-text">Brightcove Support</h5>
+          <ul class="list-unstyled text-small" style="color: white ;">
+            <li><a class="a-text" href="https://status.brightcove.com">System Status</a></li>
+            <li><a class="a-text" href="https://supportportal.brightcove.com">Contact Support</a></li>
+            <li><a class="a-text" href="https://support.brightcove.com/search.html">Search all documentation</a></li>
+          </ul>
+        </div>
+      
+        <div class="col-6 col-md">
+          <h5 class="h5-text">Training</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="a-text" href="https://studio.support.brightcove.com/get-started/training/online-training-courses.html">Online courses</a></li>
+            <li><a class="a-text" href="https://studio.support.brightcove.com/get-started/training/register-training.html">Register for a course</a></li>
+            <li><a class="a-text" href="https://academy.brightcove.com/">Brightcove Academy</a></li>
+          </ul>
+        </div>
+      
+        <div class="col-6 col-md">
+          <h5 class="h5-text">Brightcove</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="a-text" href="https://www.brightcove.com">Brightcove.com</a></li>
+            <li><a class="a-text" href="https://community.brightcove.com/s/">Bright Spot Community</a></li>
+            <li><a class="a-text" href="https://support.brightcove.com/product-updates.html">Product release notes</a></li>
+            <li><a class="a-text" href="https://support.brightcove.com/doc-updates.html">Documentation updates</a></li>
+          </ul>
+        </div>
+      </div>
+    
+      <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+      <p>© Brightcove Inc. All rights reserved.</p>
+      <a class="a-text" href="https://www.brightcove.com/en/legal/privacy">Privacy</a> 
+      <a class="a-text" href="https://www.brightcove.com/en/terms-and-conditions">Terms &amp; Conditions</a>
+
+      <ul class="list-unstyled d-flex">
+        <li class="ms-3"><a href="https://www.linkedin.com/company/16439"
+        title="LinkedIn" target="_blank" class="gf-social-linkedin"
+        style="margin-right: 1rem;"><i data-feather="linkedin"
+          style="color:#8E9093;height: 1.25rem;"></i></a></li>
+
+        <li class="ms-3"><a
+        href="https://twitter.com/brightcove" title="Twitter" target="_blank"
+        class="gf-social-twitter" style="margin-right: 1rem;"><i
+          data-feather="twitter" style="color:#8E9093;height: 1.25rem;"></i></a></li>
+
+        <li class="ms-3"><a
+        href="https://www.facebook.com/Brightcove" title="Facebook"
+        target="_blank" class="gf-social-facebook"><i data-feather="facebook"
+          style="color:#8E9093;height: 1.25rem;"></i></a></li>
+      </ul>
+      </div>
+    </footer>
+  </div>
+</div>
+
+
+<script translate="no">
+  var searchBox = sajari.init({
+    mode: "search-box",
+    project: "1588255093746585379", // Set this to your project.
+    collection: "brightcove-documentation", // Set this to your collection.
+    instantPipeline: "autocomplete", // Pipeline used as you type
+    inputPlaceholder: "Search", // Input element placeholder,
+    styling: {
+      components: {
+        
+        input: {
+          container: {
+          backgroundColor: 'white',
+          }
+        
+        }
+      }
+    },
+    maxSuggestions: 5, // Maximum number of suggestions to show
+      attachSearchBox: document.getElementById("nav-search-box") // DOM element to attach to
+  });
+
+  
+
+
+    searchBox("sub", "pipeline.search-sent", function (_, query) {
+    window.location = "/search.html?q=" + encodeURIComponent(query.q);
+    });
+  
+  </script>
+  
+  <!-- Javascript -->          
+  <script src="/assets/s-site-assets-template-stylesheets/plugins/popper.min.js"></script>
+  <script src="/assets/s-site-assets-template-stylesheets/plugins/bootstrap/js/bootstrap.min.js"></script>  
+
+
+  <!-- Page Specific JS -->
+  <script src="/assets/s-site-assets-template-stylesheets/plugins/smoothscroll.min.js"></script>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/highlight.min.js"></script> -->
+  <!-- <script src="/assets/s-site-assets-template-stylesheets/js/highlight-custom.js"></script>  -->
+  <script src="/assets/s-site-assets-template-stylesheets/plugins/simplelightbox/simple-lightbox.min.js"></script>      
+  <script src="/assets/s-site-assets-template-stylesheets/plugins/gumshoe/gumshoe.polyfills.min.js"></script> 
+  <script src="/assets/s-site-assets-template-stylesheets/js/docs.js"></script> 
+
+  <!-- original footer components -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+  <script src="/assets/s-site-assets-scripts/https-fix.js"></script>
+  <script src="/assets/s-site-assets-scripts/setDate.js"></script>
+  <script src="/assets/s-site-assets-scripts/selector.js"></script>
+  
+  <script src="/assets/s-site-assets-scripts/prism.js"></script>
+  <script src="/assets/s-site-assets-scripts/prism-normalize.js"></script>
+  
+  <script src="/assets/s-site-assets-scripts/site.js"></script>
+  <script src="https://support.brightcove.com/site-assets/js/learning-paths/learning-paths.js"></script>
+  <!-- <script src="/assets/s-site-assets-scripts/site.js"></script> -->
+  <script src="/assets/s-site-assets-scripts/tabs.js"></script>
+  
+  <script src="/assets/s-site-assets-scripts/toc-new-template.js"></script>
+  
+  <script src="/assets/js/sites_nav.js"></script>
+  <script src="/assets/s-site-assets-scripts/bcls-utils.js"></script>
+  <script src="/assets/s-site-assets-scripts/local-link-fix.js"></script>
+  <script src="/assets/s-site-assets-scripts/sajari-reindex.js"></script>
+  <script src="/assets/js/feedback.js"></script>
+  
+  <script src="/assets/s-site-assets-scripts/sajari-search-foot.js"></script>
+  
+  <script translate="no">
+    feather.replace()
+  </script>
+  <!-- <script src="/assets/js/sajari-index.js"></script> -->
+  <script src="/assets/s-site-assets-scripts/in-app.js"></script>
+  <style translate="no">
+    a.sj-paginator__page-number.sj-paginator__page-number--current.css-so0ov7 {
+      background-color: lightblue;
+    }
+    div.sj-tabs__tab {
+      margin-top: 3rem;
+      margin-left: .3rem;
+      border-top-left-radius: .4rem;
+      border-top-right-radius: .4rem;
+      background-color:#e8e8e8;
+    }
+
+    div.sj-tabs__tab.sj-tabs__tab--selected {
+      border-bottom-color: crimson;
+      background-color: #f8f8f8;
+    }
+
+    p.sj-results__result__description.css-p9jvyt {
+      font-size: 1rem;
+    }
+
+    .sj-result__text.css-31l7gp h3 {
+      color: navy;
+      font-size: 1.4rem;
+    }
+    </style>
+
+  </body>
+</html> 
